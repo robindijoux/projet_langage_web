@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="garrot_dijoux_schema_BigVir2084.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
-<BIGVIR>
+<BIGVIR xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="garrot_dijoux_schema_BigVir2084.xsd">
     <CITOYEN id_citoyen="1">
         <NOM>Thibault</NOM>
         <PRENOM>GARROT</PRENOM>
-        <SEXE>
-            <HOMME></HOMME>
-        </SEXE>
+        <SEXE>HOMME</SEXE>
         <AGE>26</AGE>
         <POIDS>75</POIDS>
         <TELEPHONE>+336527384</TELEPHONE>
@@ -42,30 +39,27 @@
                 </RESULTAT>
             </RESULTATS_TESTS_LABORATOIRE>
         </ANTECEDENTS_MECICAUX>
-        <STATUT_INFECTION>
-            <INFECTE></INFECTE>
-        </STATUT_INFECTION>
-        <STATUT_VACCINATION>
-            <NON_VACCINE></NON_VACCINE>
-        </STATUT_VACCINATION>
-        <STATUT_IMMUNISATION>
-            <IMMUNISE></IMMUNISE>
-        </STATUT_IMMUNISATION>
+        <STATUT_INFECTION>INFECTE</STATUT_INFECTION>
+        <STATUT_VACCINATION>NON_VACCINE</STATUT_VACCINATION>
+        <STATUT_IMMUNISATION>IMMUNISE</STATUT_IMMUNISATION>
         <RELATIONS_SOCIALES>
             <AMI id_ami="2" />
         </RELATIONS_SOCIALES>
         <HISTORIQUE_SOCIAL>
-            <ACTIVITE id_evenement="1" id_etablissement="2">
+            <ACTIVITE>
                 <DATE>2021-02-28</DATE>
+                <NOM_ACTIVITE>Restaurant entre amis</NOM_ACTIVITE>
+                <NB_PARTICIPANTS>4</NB_PARTICIPANTS>
+                <LIEU_CLOS>true</LIEU_CLOS>
+                <PUBLIC>true</PUBLIC>
+                <REF_ETABLISSEMENT>1</REF_ETABLISSEMENT>
             </ACTIVITE>
         </HISTORIQUE_SOCIAL>
     </CITOYEN>
     <CITOYEN id_citoyen="2">
         <NOM>Robin</NOM>
         <PRENOM>DIJOUX</PRENOM>
-        <SEXE>
-            <HOMME></HOMME>
-        </SEXE>
+        <SEXE>HOMME</SEXE>
         <AGE>22</AGE>
         <POIDS>72</POIDS>
         <TELEPHONE>+33781543100</TELEPHONE>
@@ -78,6 +72,9 @@
                     <MOTIF>Douleur dos</MOTIF>
                 </CONSULATION>
             </CONSULTATIONS>
+            <HOSPITALISATIONS>
+
+            </HOSPITALISATIONS>
             <RESULTATS_TESTS_LABORATOIRE>
                 <RESULTAT id_resultat="2">
                     <LABORATOIRE>SUPERLAB</LABORATOIRE>
@@ -87,42 +84,59 @@
                 </RESULTAT>
             </RESULTATS_TESTS_LABORATOIRE>
         </ANTECEDENTS_MECICAUX>
-        <STATUT_INFECTION><NON_INFECTE></NON_INFECTE></STATUT_INFECTION>
-        <STATUT_VACCINATION><NON_VACCINE></NON_VACCINE></STATUT_VACCINATION>
-        <STATUT_IMMUNISATION><NON_IMMUNISE></NON_IMMUNISE></STATUT_IMMUNISATION>
+        <STATUT_INFECTION>NON_INFECTE</STATUT_INFECTION>
+        <STATUT_VACCINATION>NON_VACCINE</STATUT_VACCINATION>
+        <STATUT_IMMUNISATION>NON_IMMUNISE</STATUT_IMMUNISATION>
         <RELATIONS_SOCIALES>
             <AMI id_ami="1" />
         </RELATIONS_SOCIALES>
         <HISTORIQUE_SOCIAL>
-            <ACTIVITE id_evenement="1" id_etablissement="2">
+            <ACTIVITE>
                 <DATE>2021-02-28</DATE>
+                <NOM_ACTIVITE>Cinéma</NOM_ACTIVITE>
+                <NB_PARTICIPANTS>2</NB_PARTICIPANTS>
+                <LIEU_CLOS>true</LIEU_CLOS>
+                <PUBLIC>true</PUBLIC>
+                <REF_ETABLISSEMENT>1</REF_ETABLISSEMENT>
             </ACTIVITE>
         </HISTORIQUE_SOCIAL>
     </CITOYEN>
-    <ETABLISSEMENT id_etablissement="1">
-        <NOM_ETABLISSEMENT>Cosy Bar</NOM_ETABLISSEMENT>
-        <ADRESSE>Golfe Juan</ADRESSE>
-        <SUPERFICIE>50</SUPERFICIE>
-        <NB_PLACES>70</NB_PLACES>
-    </ETABLISSEMENT>
-    <ETABLISSEMENT id_etablissement="2">
-        <NOM_ETABLISSEMENT>MK</NOM_ETABLISSEMENT>
-        <ADRESSE>Biot</ADRESSE>
-        <SUPERFICIE>55</SUPERFICIE>
-        <NB_PLACES>65</NB_PLACES>
-    </ETABLISSEMENT>
-    <EVENEMENT id_evenement="1">
-        <NOM_EVENEMENT>After Work</NOM_EVENEMENT>
-        <ADRESSE>Biot</ADRESSE>
-        <NB_PARTICIPANTS>50</NB_PARTICIPANTS>
-        <LIEU_CLOS>true</LIEU_CLOS>
-        <PUBLIC>true</PUBLIC>
-    </EVENEMENT>
-    <MEDECIN id_medecin="1" id_citoyen="1">
-        <SPECIALITE>Médecine générale</SPECIALITE>
-    </MEDECIN>
-    <MEDECIN id_medecin="2" id_citoyen="2">
-        <SPECIALITE>Chirurgien</SPECIALITE>
-    </MEDECIN>
-    
+
+    <LISTE_ETABLISSEMENTS>
+        <ETABLISSEMENT id_etablissement="1">
+            <NOM_ETABLISSEMENT>Cosy Bar</NOM_ETABLISSEMENT>
+            <ADRESSE>Golfe Juan</ADRESSE>
+            <SUPERFICIE>50</SUPERFICIE>
+            <NB_PLACES>70</NB_PLACES>
+        </ETABLISSEMENT>
+        <ETABLISSEMENT id_etablissement="2">
+            <NOM_ETABLISSEMENT>MK</NOM_ETABLISSEMENT>
+            <ADRESSE>Biot</ADRESSE>
+            <SUPERFICIE>55</SUPERFICIE>
+            <NB_PLACES>65</NB_PLACES>
+        </ETABLISSEMENT>
+    </LISTE_ETABLISSEMENTS>
+
+    <LISTE_LIEUX>
+        <LIEU id_lieu="1">
+            <NOM_LIEU>Théatre de verdure</NOM_LIEU>
+            <ADRESSE>45 Avenue de la Majorette</ADRESSE>
+            <CODE_POSTAL>06000</CODE_POSTAL>
+        </LIEU>
+        <LIEU id_lieu="2">
+            <NOM_LIEU>Coulée Verte</NOM_LIEU>
+            <ADRESSE>Avenue de la Majorette</ADRESSE>
+            <CODE_POSTAL>06000</CODE_POSTAL>
+        </LIEU>
+    </LISTE_LIEUX>
+
+    <LISTE_MEDECINS>
+        <MEDECIN id_medecin="1" id_citoyen="1">
+            <SPECIALITE>Médecine générale</SPECIALITE>
+        </MEDECIN>
+        <MEDECIN id_medecin="2" id_citoyen="2">
+            <SPECIALITE>Chirurgien</SPECIALITE>
+        </MEDECIN>
+    </LISTE_MEDECINS>
+
 </BIGVIR>
