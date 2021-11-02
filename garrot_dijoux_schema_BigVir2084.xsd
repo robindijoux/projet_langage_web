@@ -3,146 +3,152 @@
     <xs:element name="BIGVIR">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="CITOYEN" minOccurs="0" maxOccurs="unbounded">
+                <xs:element name="LISTE_CITOYEN">
                     <xs:complexType>
                         <xs:sequence>
-                            <xs:element name="NOM" type="xs:string"></xs:element>
-                            <xs:element name="PRENOM" type="xs:string"></xs:element>
-                            <xs:element name="SEXE">
-                                <xs:simpleType>
-                                    <xs:restriction base="xs:string">
-                                        <xs:enumeration value="HOMME"></xs:enumeration>
-                                        <xs:enumeration value="FEMME"></xs:enumeration>
-                                    </xs:restriction>
-                                </xs:simpleType>
-                            </xs:element>
-                            <xs:element name="AGE" type="xs:positiveInteger"></xs:element>
-                            <xs:element name="POIDS" type="xs:positiveInteger"></xs:element>
-                            <xs:element name="TELEPHONE" type="xs:string"></xs:element>
-                            <xs:element name="ANTECEDENTS_MECICAUX">
+                            <xs:element name="CITOYEN" minOccurs="0" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="CONSULTATIONS">
+                                        <xs:element name="NOM" type="xs:string"/>
+                                        <xs:element name="PRENOM" type="xs:string"/>
+                                        <xs:element name="SEXE">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="HOMME"/>
+                                                    <xs:enumeration value="FEMME"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="AGE" type="xs:positiveInteger"/>
+                                        <xs:element name="POIDS" type="xs:positiveInteger"/>
+                                        <xs:element name="TELEPHONE" type="xs:string"/>
+                                        <xs:element name="ANTECEDENTS_MECICAUX">
                                             <xs:complexType>
                                                 <xs:sequence>
-                                                    <xs:element name="CONSULATION" minOccurs="0" maxOccurs="unbounded">
+                                                    <xs:element name="CONSULTATIONS">
                                                         <xs:complexType>
                                                             <xs:sequence>
-                                                                <xs:element name="LIEU" type="xs:string" nillable="false"></xs:element>
-                                                                <xs:element name="PROFESSIONNEL_SANTE">
+                                                                <xs:element name="CONSULATION" minOccurs="0" maxOccurs="unbounded">
                                                                     <xs:complexType>
-                                                                        <xs:attribute name="professionnel_sante_id" type="xs:positiveInteger" use="required"></xs:attribute>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="LIEU" type="xs:string" nillable="false"/>
+                                                                            <xs:element name="PROFESSIONNEL_SANTE">
+                                                                                <xs:complexType>
+                                                                                    <xs:attribute name="professionnel_sante_id" type="xs:positiveInteger" use="required"/>
+                                                                                </xs:complexType>
+                                                                            </xs:element>
+                                                                            <xs:element name="DATE" type="xs:date"/>
+                                                                            <xs:element name="MOTIF" type="xs:string"/>
+                                                                        </xs:sequence>
+                                                                        <xs:attribute name="id_consultation" type="xs:positiveInteger" use="required"/>
                                                                     </xs:complexType>
                                                                 </xs:element>
-                                                                <xs:element name="DATE" type="xs:date"></xs:element>
-                                                                <xs:element name="MOTIF" type="xs:string"></xs:element>
                                                             </xs:sequence>
-                                                            <xs:attribute name="id_consultation" type="xs:positiveInteger" use="required"/>
                                                         </xs:complexType>
                                                     </xs:element>
-                                                </xs:sequence>
-                                            </xs:complexType>
-                                        </xs:element>
-                                        <xs:element name="HOSPITALISATIONS">
-                                            <xs:complexType>
-                                                <xs:sequence>
-                                                    <xs:element name="HOSPITALISATION" minOccurs="0" maxOccurs="unbounded">
+                                                    <xs:element name="HOSPITALISATIONS">
                                                         <xs:complexType>
                                                             <xs:sequence>
-                                                                <xs:element name="LIEU" type="xs:string"></xs:element>
-                                                                <xs:element name="DATE_ENTREE" type="xs:date"></xs:element>
-                                                                <xs:element name="DATE_SORTIE" type="xs:date"></xs:element>
-                                                                <xs:element name="MOTIF" type="xs:string"></xs:element>
-                                                            </xs:sequence>
-                                                            <xs:attribute name="id_hospitalisation" type="xs:positiveInteger" use="required"/>
-                                                        </xs:complexType>
-                                                    </xs:element>
-                                                </xs:sequence>
-                                            </xs:complexType>
-                                        </xs:element>
-                                        <xs:element name="RESULTATS_TESTS_LABORATOIRE">
-                                            <xs:complexType>
-                                                <xs:sequence>
-                                                    <xs:element name="RESULTAT" minOccurs="0" maxOccurs="unbounded">
-                                                        <xs:complexType>
-                                                            <xs:sequence>
-                                                                <xs:element name="LABORATOIRE" type="xs:string"></xs:element>
-                                                                <xs:element name="PROFESSIONNEL_SANTE">
+                                                                <xs:element name="HOSPITALISATION" minOccurs="0" maxOccurs="unbounded">
                                                                     <xs:complexType>
-                                                                        <xs:attribute name="professionnel_sante_id" type="xs:positiveInteger" use="required"></xs:attribute>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="LIEU" type="xs:string"/>
+                                                                            <xs:element name="DATE_ENTREE" type="xs:date"/>
+                                                                            <xs:element name="DATE_SORTIE" type="xs:date"/>
+                                                                            <xs:element name="MOTIF" type="xs:string"/>
+                                                                        </xs:sequence>
+                                                                        <xs:attribute name="id_hospitalisation" type="xs:positiveInteger" use="required"/>
                                                                     </xs:complexType>
                                                                 </xs:element>
-                                                                <xs:element name="POSITIF" type="xs:boolean"></xs:element>
-                                                                <xs:element name="DATE" type="xs:date"></xs:element>
                                                             </xs:sequence>
-                                                            <xs:attribute name="id_resultat" type="xs:positiveInteger" use="required"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="RESULTATS_TESTS_LABORATOIRE">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="RESULTAT" minOccurs="0" maxOccurs="unbounded">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="LABORATOIRE" type="xs:string"/>
+                                                                            <xs:element name="PROFESSIONNEL_SANTE">
+                                                                                <xs:complexType>
+                                                                                    <xs:attribute name="professionnel_sante_id" type="xs:positiveInteger" use="required"/>
+                                                                                </xs:complexType>
+                                                                            </xs:element>
+                                                                            <xs:element name="POSITIF" type="xs:boolean"/>
+                                                                            <xs:element name="DATE" type="xs:date"/>
+                                                                        </xs:sequence>
+                                                                        <xs:attribute name="id_resultat" type="xs:positiveInteger" use="required"/>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="STATUT_INFECTION">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="NON_INFECTE"/>
+                                                    <xs:enumeration value="INFECTE"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="STATUT_VACCINATION">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="NON_VACCINE"/>
+                                                    <xs:enumeration value="EN_COURS"/>
+                                                    <xs:enumeration value="VACCINE"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="STATUT_IMMUNISATION">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="NON_IMMUNISE"/>
+                                                    <xs:enumeration value="IMMUNISE"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="RELATIONS_SOCIALES">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="AMI" nillable="true" minOccurs="0" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:attribute name="id_ami" type="xs:positiveInteger" use="required"/>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="HISTORIQUE_SOCIAL">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="ACTIVITE" minOccurs="0" maxOccurs="unbounded">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="DATE" type="xs:string"/>
+                                                                <xs:element name="NOM_ACTIVITE" type="xs:string"/>
+                                                                <xs:element name="NB_PARTICIPANTS" type="xs:positiveInteger"/>
+                                                                <xs:element name="LIEU_CLOS" type="xs:boolean"/>
+                                                                <xs:element name="PUBLIC" type="xs:boolean"/>
+                                                                <xs:choice>
+                                                                    <xs:element name="REF_LIEU" type="xs:positiveInteger"/>
+                                                                    <xs:element name="REF_ETABLISSEMENT" type="xs:positiveInteger"/>
+                                                                </xs:choice>
+                                                            </xs:sequence>
                                                         </xs:complexType>
                                                     </xs:element>
                                                 </xs:sequence>
                                             </xs:complexType>
                                         </xs:element>
                                     </xs:sequence>
-                                </xs:complexType>
-                            </xs:element>
-                            <xs:element name="STATUT_INFECTION">
-                                <xs:simpleType>
-                                    <xs:restriction base="xs:string">
-                                        <xs:enumeration value="NON_INFECTE"></xs:enumeration>
-                                        <xs:enumeration value="INFECTE"></xs:enumeration>
-                                    </xs:restriction>
-                                </xs:simpleType>
-                            </xs:element>
-                            <xs:element name="STATUT_VACCINATION">
-                                <xs:simpleType>
-                                    <xs:restriction base="xs:string">
-                                        <xs:enumeration value="NON_VACCINE"></xs:enumeration>
-                                        <xs:enumeration value="EN_COURS"></xs:enumeration>
-                                        <xs:enumeration value="VACCINE"></xs:enumeration>
-                                    </xs:restriction>
-                                </xs:simpleType>
-                            </xs:element>
-                            <xs:element name="STATUT_IMMUNISATION">
-                                <xs:simpleType>
-                                    <xs:restriction base="xs:string">
-                                        <xs:enumeration value="NON_IMMUNISE"></xs:enumeration>
-                                        <xs:enumeration value="IMMUNISE"></xs:enumeration>
-                                    </xs:restriction>
-                                </xs:simpleType>
-                            </xs:element>
-                            <xs:element name="RELATIONS_SOCIALES">
-                                <xs:complexType>
-                                    <xs:sequence>
-                                        <xs:element name="AMI" nillable="true" minOccurs="0" maxOccurs="unbounded">
-                                            <xs:complexType>
-                                                <xs:attribute name="id_ami" type="xs:positiveInteger" use="required"/>
-                                            </xs:complexType>
-                                        </xs:element>
-                                    </xs:sequence>
-                                </xs:complexType>
-                            </xs:element>
-                            <xs:element name="HISTORIQUE_SOCIAL">
-                                <xs:complexType>
-                                    <xs:sequence>
-                                        <xs:element name="ACTIVITE" minOccurs="0" maxOccurs="unbounded">
-                                            <xs:complexType>
-                                                <xs:sequence>
-                                                    <xs:element name="DATE" type="xs:string"></xs:element>
-                                                    <xs:element name="NOM_ACTIVITE" type="xs:string"></xs:element>
-                                                    <xs:element name="NB_PARTICIPANTS" type="xs:positiveInteger"></xs:element>
-                                                    <xs:element name="LIEU_CLOS" type="xs:boolean"></xs:element>
-                                                    <xs:element name="PUBLIC" type="xs:boolean"></xs:element>
-                                                    <xs:choice>
-                                                        <xs:element name="REF_LIEU" type="xs:positiveInteger"></xs:element>
-                                                        <xs:element name="REF_ETABLISSEMENT" type="xs:positiveInteger"></xs:element>
-                                                    </xs:choice>
-                                                </xs:sequence>
-                                            </xs:complexType>
-                                        </xs:element>
-                                    </xs:sequence>
+                                    <xs:attribute name="id_citoyen" type="xs:positiveInteger" use="required"/>
                                 </xs:complexType>
                             </xs:element>
                         </xs:sequence>
-                        <xs:attribute name="id_citoyen" type="xs:positiveInteger" use="required"/>
                     </xs:complexType>
                 </xs:element>
                 <xs:element name="LISTE_ETABLISSEMENTS">
@@ -151,10 +157,10 @@
                             <xs:element name="ETABLISSEMENT" minOccurs="0" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="NOM_ETABLISSEMENT" type="xs:string"></xs:element>
-                                        <xs:element name="ADRESSE" type="xs:string"></xs:element>
-                                        <xs:element name="SUPERFICIE" type="xs:positiveInteger"></xs:element>
-                                        <xs:element name="NB_PLACES" type="xs:positiveInteger"></xs:element>
+                                        <xs:element name="NOM_ETABLISSEMENT" type="xs:string"/>
+                                        <xs:element name="ADRESSE" type="xs:string"/>
+                                        <xs:element name="SUPERFICIE" type="xs:positiveInteger"/>
+                                        <xs:element name="NB_PLACES" type="xs:positiveInteger"/>
                                     </xs:sequence>
                                     <xs:attribute name="id_etablissement" type="xs:positiveInteger"/>
                                 </xs:complexType>
@@ -168,9 +174,9 @@
                             <xs:element name="LIEU" minOccurs="0" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="NOM_LIEU" type="xs:string" minOccurs="0"></xs:element>
-                                        <xs:element name="ADRESSE" type="xs:string"></xs:element>
-                                        <xs:element name="CODE_POSTAL" type="xs:string"></xs:element>
+                                        <xs:element name="NOM_LIEU" type="xs:string" minOccurs="0"/>
+                                        <xs:element name="ADRESSE" type="xs:string"/>
+                                        <xs:element name="CODE_POSTAL" type="xs:string"/>
                                     </xs:sequence>
                                     <xs:attribute name="id_lieu" type="xs:positiveInteger"/>
                                 </xs:complexType>
@@ -184,7 +190,7 @@
                             <xs:element name="MEDECIN" minOccurs="0" maxOccurs="unbounded">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="SPECIALITE" type="xs:string"></xs:element>
+                                        <xs:element name="SPECIALITE" type="xs:string"/>
                                     </xs:sequence>
                                     <xs:attribute name="id_medecin" use="required" type="xs:positiveInteger"/>
                                     <xs:attribute name="id_citoyen" use="required" type="xs:positiveInteger"/>
@@ -198,62 +204,62 @@
         <!-- Ici se trouve toute les clés et les références créées pour la base de données BigVir -->
         <!-- CITOYEN -->
         <xs:key name="cle_citoyen">
-            <xs:selector xpath="CITOYEN"></xs:selector>
-            <xs:field xpath="@id_citoyen"></xs:field>
+            <xs:selector xpath="LISTE_CITOYEN/CITOYEN"/>
+            <xs:field xpath="@id_citoyen"/>
         </xs:key>
         <xs:keyref name="medecin_ref_citoyen" refer="cle_citoyen">
             <xs:selector xpath="LISTE_MEDECINS/MEDECIN"/>
             <xs:field xpath="@id_citoyen"/>
         </xs:keyref>
         <xs:keyref name="ami_ref_citoyen" refer="cle_citoyen">
-            <xs:selector xpath="CITOYEN/RELATIONS_SOCIALES/AMI"/>
+            <xs:selector xpath="LISTE_CITOYEN/CITOYEN/RELATIONS_SOCIALES/AMI"/>
             <xs:field xpath="@id_ami"/>
         </xs:keyref>
         <!-- ETABLISSEMENT -->
         <xs:key name="cle_etablissement">
-            <xs:selector xpath="LISTE_ETABLISSEMENTS/ETABLISSEMENT"></xs:selector>
-            <xs:field xpath="@id_etablissement"></xs:field>
+            <xs:selector xpath="LISTE_ETABLISSEMENTS/ETABLISSEMENT"/>
+            <xs:field xpath="@id_etablissement"/>
         </xs:key>
         <xs:keyref name="ref_etablissement" refer="cle_etablissement">
-            <xs:selector xpath="CITOYEN/HISTORIQUE_SOCIAL/ACTIVITE/REF_ETABLISSEMENT"/>
+            <xs:selector xpath="LISTE_CITOYEN/CITOYEN/HISTORIQUE_SOCIAL/ACTIVITE/REF_ETABLISSEMENT"/>
             <xs:field xpath="."/>
         </xs:keyref>
         <!-- LIEU -->
         <xs:key name="cle_lieu">
-            <xs:selector xpath="LISTE_LIEUX/LIEU"></xs:selector>
-            <xs:field xpath="@id_lieu"></xs:field>
+            <xs:selector xpath="LISTE_LIEUX/LIEU"/>
+            <xs:field xpath="@id_lieu"/>
         </xs:key>
         <xs:keyref name="ref_lieu" refer="cle_lieu">
-            <xs:selector xpath="CITOYEN/HISTORIQUE_SOCIAL/ACTIVITE/REF_LIEU"/>
+            <xs:selector xpath="LISTE_CITOYEN/CITOYEN/HISTORIQUE_SOCIAL/ACTIVITE/REF_LIEU"/>
             <xs:field xpath="."/>
         </xs:keyref>
         <!-- MEDECIN -->
         <xs:key name="cle_medecin">
-            <xs:selector xpath="LISTE_MEDECINS/MEDECIN"></xs:selector>
-            <xs:field xpath="@id_medecin"></xs:field>
+            <xs:selector xpath="LISTE_MEDECINS/MEDECIN"/>
+            <xs:field xpath="@id_medecin"/>
         </xs:key>
         <xs:keyref name="ref_medecin_consultation" refer="cle_medecin">
-            <xs:selector xpath="CITOYEN/ANTECEDENTS_MECICAUX/CONSULTATIONS/CONSULTATION/PROFESSIONNEL_SANTE"/>
+            <xs:selector xpath="LISTE_CITOYEN/CITOYEN/ANTECEDENTS_MECICAUX/CONSULTATIONS/CONSULTATION/PROFESSIONNEL_SANTE"/>
             <xs:field xpath="@professionnel_sante_id"/>
         </xs:keyref>
         <xs:keyref name="ref_medecin_resultat" refer="cle_medecin">
-            <xs:selector xpath="CITOYEN/ANTECEDENTS_MECICAUX/RESULTATS_TESTS_LABORATOIRE/RESULTAT/PROFESSIONNEL_SANTE"/>
+            <xs:selector xpath="LISTE_CITOYEN/CITOYEN/ANTECEDENTS_MECICAUX/RESULTATS_TESTS_LABORATOIRE/RESULTAT/PROFESSIONNEL_SANTE"/>
             <xs:field xpath="@professionnel_sante_id"/>
         </xs:keyref>
         <!-- CONSULTATION -->
         <xs:key name="cle_consultation">
-            <xs:selector xpath="CITOYEN/ANTECEDENTS_MECICAUX/CONSULTATIONS/CONSULTATION"></xs:selector>
-            <xs:field xpath="@id_consultation"></xs:field>
+            <xs:selector xpath="LISTE_CITOYEN/CITOYEN/ANTECEDENTS_MECICAUX/CONSULTATIONS/CONSULTATION"/>
+            <xs:field xpath="@id_consultation"/>
         </xs:key>
         <!-- HOSPITALISATION -->
         <xs:key name="cle_hospitalisation">
-            <xs:selector xpath="CITOYEN/ANTECEDENTS_MECICAUX/HOSPITALISATIONS/HOSPITALISATION"></xs:selector>
-            <xs:field xpath="@id_hospitalisation"></xs:field>
+            <xs:selector xpath="LISTE_CITOYEN/CITOYEN/ANTECEDENTS_MECICAUX/HOSPITALISATIONS/HOSPITALISATION"/>
+            <xs:field xpath="@id_hospitalisation"/>
         </xs:key>
         <!-- RESULTAT -->
         <xs:key name="cle_resultat">
-            <xs:selector xpath="CITOYEN/ANTECEDENTS_MECICAUX/RESULTATS_TESTS_LABORATOIRE/RESULTAT"></xs:selector>
-            <xs:field xpath="@id_resultat"></xs:field>
+            <xs:selector xpath="LISTE_CITOYEN/CITOYEN/ANTECEDENTS_MECICAUX/RESULTATS_TESTS_LABORATOIRE/RESULTAT"/>
+            <xs:field xpath="@id_resultat"/>
         </xs:key>
     </xs:element>
 </xs:schema>

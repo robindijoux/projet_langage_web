@@ -1,107 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <BIGVIR xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="garrot_dijoux_schema_BigVir2084.xsd">
-    <CITOYEN id_citoyen="1">
-        <NOM>Thibault</NOM>
-        <PRENOM>GARROT</PRENOM>
-        <SEXE>HOMME</SEXE>
-        <AGE>26</AGE>
-        <POIDS>75</POIDS>
-        <TELEPHONE>+336527384</TELEPHONE>
-        <ANTECEDENTS_MECICAUX>
-            <CONSULTATIONS>
-                <CONSULATION id_consultation="1">
-                    <LIEU>ANTIBES</LIEU>
-                    <PROFESSIONNEL_SANTE professionnel_sante_id="1"></PROFESSIONNEL_SANTE>
-                    <DATE>2021-08-25</DATE>
-                    <MOTIF>Toux grasse</MOTIF>
-                </CONSULATION>
-            </CONSULTATIONS>
-            <HOSPITALISATIONS>
-                <HOSPITALISATION id_hospitalisation="1">
-                    <LIEU>Biot</LIEU>
-                    <DATE_ENTREE>2021-03-27</DATE_ENTREE>
-                    <DATE_SORTIE>2021-04-13</DATE_SORTIE>
-                    <MOTIF>Insuffisance respiratoire</MOTIF>
-                </HOSPITALISATION>
-                <HOSPITALISATION id_hospitalisation="2">
-                    <LIEU>Villeneuve Loubet</LIEU>
-                    <DATE_ENTREE>2021-05-28</DATE_ENTREE>
-                    <DATE_SORTIE>2021-05-30</DATE_SORTIE>
-                    <MOTIF>Insuffisance respiratoire</MOTIF>
-                </HOSPITALISATION>
-            </HOSPITALISATIONS>
-            <RESULTATS_TESTS_LABORATOIRE>
-                <RESULTAT id_resultat="1">
-                    <LABORATOIRE>CERBAILLANCE</LABORATOIRE>
-                    <PROFESSIONNEL_SANTE professionnel_sante_id="1"/>
-                    <POSITIF>true</POSITIF>
+    <LISTE_CITOYEN>
+        <CITOYEN id_citoyen="1">
+            <NOM>Thibault</NOM>
+            <PRENOM>GARROT</PRENOM>
+            <SEXE>HOMME</SEXE>
+            <AGE>26</AGE>
+            <POIDS>75</POIDS>
+            <TELEPHONE>+336527384</TELEPHONE>
+            <ANTECEDENTS_MECICAUX>
+                <CONSULTATIONS>
+                    <CONSULATION id_consultation="1">
+                        <LIEU>ANTIBES</LIEU>
+                        <PROFESSIONNEL_SANTE professionnel_sante_id="1"></PROFESSIONNEL_SANTE>
+                        <DATE>2021-08-25</DATE>
+                        <MOTIF>Toux grasse</MOTIF>
+                    </CONSULATION>
+                </CONSULTATIONS>
+                <HOSPITALISATIONS>
+                    <HOSPITALISATION id_hospitalisation="1">
+                        <LIEU>Biot</LIEU>
+                        <DATE_ENTREE>2021-03-27</DATE_ENTREE>
+                        <DATE_SORTIE>2021-04-13</DATE_SORTIE>
+                        <MOTIF>Insuffisance respiratoire</MOTIF>
+                    </HOSPITALISATION>
+                    <HOSPITALISATION id_hospitalisation="2">
+                        <LIEU>Villeneuve Loubet</LIEU>
+                        <DATE_ENTREE>2021-05-28</DATE_ENTREE>
+                        <DATE_SORTIE>2021-05-30</DATE_SORTIE>
+                        <MOTIF>Insuffisance respiratoire</MOTIF>
+                    </HOSPITALISATION>
+                </HOSPITALISATIONS>
+                <RESULTATS_TESTS_LABORATOIRE>
+                    <RESULTAT id_resultat="1">
+                        <LABORATOIRE>CERBAILLANCE</LABORATOIRE>
+                        <PROFESSIONNEL_SANTE professionnel_sante_id="1"/>
+                        <POSITIF>true</POSITIF>
+                        <DATE>2021-02-28</DATE>
+                    </RESULTAT>
+                </RESULTATS_TESTS_LABORATOIRE>
+            </ANTECEDENTS_MECICAUX>
+            <STATUT_INFECTION>INFECTE</STATUT_INFECTION>
+            <STATUT_VACCINATION>NON_VACCINE</STATUT_VACCINATION>
+            <STATUT_IMMUNISATION>IMMUNISE</STATUT_IMMUNISATION>
+            <RELATIONS_SOCIALES>
+                <AMI id_ami="2" />
+            </RELATIONS_SOCIALES>
+            <HISTORIQUE_SOCIAL>
+                <ACTIVITE>
                     <DATE>2021-02-28</DATE>
-                </RESULTAT>
-            </RESULTATS_TESTS_LABORATOIRE>
-        </ANTECEDENTS_MECICAUX>
-        <STATUT_INFECTION>INFECTE</STATUT_INFECTION>
-        <STATUT_VACCINATION>NON_VACCINE</STATUT_VACCINATION>
-        <STATUT_IMMUNISATION>IMMUNISE</STATUT_IMMUNISATION>
-        <RELATIONS_SOCIALES>
-            <AMI id_ami="2" />
-        </RELATIONS_SOCIALES>
-        <HISTORIQUE_SOCIAL>
-            <ACTIVITE>
-                <DATE>2021-02-28</DATE>
-                <NOM_ACTIVITE>Restaurant entre amis</NOM_ACTIVITE>
-                <NB_PARTICIPANTS>4</NB_PARTICIPANTS>
-                <LIEU_CLOS>true</LIEU_CLOS>
-                <PUBLIC>true</PUBLIC>
-                <REF_ETABLISSEMENT>1</REF_ETABLISSEMENT>
-            </ACTIVITE>
-        </HISTORIQUE_SOCIAL>
-    </CITOYEN>
-    <CITOYEN id_citoyen="2">
-        <NOM>Robin</NOM>
-        <PRENOM>DIJOUX</PRENOM>
-        <SEXE>HOMME</SEXE>
-        <AGE>22</AGE>
-        <POIDS>72</POIDS>
-        <TELEPHONE>+33781543100</TELEPHONE>
-        <ANTECEDENTS_MECICAUX>
-            <CONSULTATIONS>
-                <CONSULATION id_consultation="1">
-                    <LIEU></LIEU>
-                    <PROFESSIONNEL_SANTE professionnel_sante_id="2"/>
-                    <DATE>2020-08-25</DATE>
-                    <MOTIF>Douleur dos</MOTIF>
-                </CONSULATION>
-            </CONSULTATIONS>
-            <HOSPITALISATIONS>
+                    <NOM_ACTIVITE>Restaurant entre amis</NOM_ACTIVITE>
+                    <NB_PARTICIPANTS>4</NB_PARTICIPANTS>
+                    <LIEU_CLOS>true</LIEU_CLOS>
+                    <PUBLIC>true</PUBLIC>
+                    <REF_ETABLISSEMENT>1</REF_ETABLISSEMENT>
+                </ACTIVITE>
+            </HISTORIQUE_SOCIAL>
+        </CITOYEN>
+        <CITOYEN id_citoyen="2">
+            <NOM>Robin</NOM>
+            <PRENOM>DIJOUX</PRENOM>
+            <SEXE>HOMME</SEXE>
+            <AGE>22</AGE>
+            <POIDS>72</POIDS>
+            <TELEPHONE>+33781543100</TELEPHONE>
+            <ANTECEDENTS_MECICAUX>
+                <CONSULTATIONS>
+                    <CONSULATION id_consultation="1">
+                        <LIEU></LIEU>
+                        <PROFESSIONNEL_SANTE professionnel_sante_id="2"/>
+                        <DATE>2020-08-25</DATE>
+                        <MOTIF>Douleur dos</MOTIF>
+                    </CONSULATION>
+                </CONSULTATIONS>
+                <HOSPITALISATIONS>
 
-            </HOSPITALISATIONS>
-            <RESULTATS_TESTS_LABORATOIRE>
-                <RESULTAT id_resultat="2">
-                    <LABORATOIRE>SUPERLAB</LABORATOIRE>
-                    <PROFESSIONNEL_SANTE professionnel_sante_id="2"/>
-                    <POSITIF>false</POSITIF>
-                    <DATE>2021-01-12</DATE>
-                </RESULTAT>
-            </RESULTATS_TESTS_LABORATOIRE>
-        </ANTECEDENTS_MECICAUX>
-        <STATUT_INFECTION>NON_INFECTE</STATUT_INFECTION>
-        <STATUT_VACCINATION>NON_VACCINE</STATUT_VACCINATION>
-        <STATUT_IMMUNISATION>NON_IMMUNISE</STATUT_IMMUNISATION>
-        <RELATIONS_SOCIALES>
-            <AMI id_ami="1" />
-        </RELATIONS_SOCIALES>
-        <HISTORIQUE_SOCIAL>
-            <ACTIVITE>
-                <DATE>2021-02-28</DATE>
-                <NOM_ACTIVITE>Cinéma</NOM_ACTIVITE>
-                <NB_PARTICIPANTS>2</NB_PARTICIPANTS>
-                <LIEU_CLOS>true</LIEU_CLOS>
-                <PUBLIC>true</PUBLIC>
-                <REF_ETABLISSEMENT>1</REF_ETABLISSEMENT>
-            </ACTIVITE>
-        </HISTORIQUE_SOCIAL>
-    </CITOYEN>
-
+                </HOSPITALISATIONS>
+                <RESULTATS_TESTS_LABORATOIRE>
+                    <RESULTAT id_resultat="2">
+                        <LABORATOIRE>SUPERLAB</LABORATOIRE>
+                        <PROFESSIONNEL_SANTE professionnel_sante_id="2"/>
+                        <POSITIF>false</POSITIF>
+                        <DATE>2021-01-12</DATE>
+                    </RESULTAT>
+                </RESULTATS_TESTS_LABORATOIRE>
+            </ANTECEDENTS_MECICAUX>
+            <STATUT_INFECTION>NON_INFECTE</STATUT_INFECTION>
+            <STATUT_VACCINATION>NON_VACCINE</STATUT_VACCINATION>
+            <STATUT_IMMUNISATION>NON_IMMUNISE</STATUT_IMMUNISATION>
+            <RELATIONS_SOCIALES>
+                <AMI id_ami="1" />
+            </RELATIONS_SOCIALES>
+            <HISTORIQUE_SOCIAL>
+                <ACTIVITE>
+                    <DATE>2021-02-28</DATE>
+                    <NOM_ACTIVITE>Cinéma</NOM_ACTIVITE>
+                    <NB_PARTICIPANTS>2</NB_PARTICIPANTS>
+                    <LIEU_CLOS>true</LIEU_CLOS>
+                    <PUBLIC>true</PUBLIC>
+                    <REF_ETABLISSEMENT>1</REF_ETABLISSEMENT>
+                </ACTIVITE>
+            </HISTORIQUE_SOCIAL>
+        </CITOYEN>
+    </LISTE_CITOYEN>
     <LISTE_ETABLISSEMENTS>
         <ETABLISSEMENT id_etablissement="1">
             <NOM_ETABLISSEMENT>Cosy Bar</NOM_ETABLISSEMENT>
