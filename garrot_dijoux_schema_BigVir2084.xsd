@@ -247,19 +247,19 @@
             <xs:field xpath="@professionnel_sante_id"/>
         </xs:keyref>
         <!-- CONSULTATION -->
-        <xs:key name="cle_consultation">
+        <xs:unique name="unique_consultation">
             <xs:selector xpath="LISTE_CITOYEN/CITOYEN/ANTECEDENTS_MECICAUX/CONSULTATIONS/CONSULTATION"/>
             <xs:field xpath="@id_consultation"/>
-        </xs:key>
+        </xs:unique>
         <!-- HOSPITALISATION -->
-        <xs:key name="cle_hospitalisation">
+        <xs:unique name="unique_hospitalisation">
             <xs:selector xpath="LISTE_CITOYEN/CITOYEN/ANTECEDENTS_MECICAUX/HOSPITALISATIONS/HOSPITALISATION"/>
             <xs:field xpath="@id_hospitalisation"/>
-        </xs:key>
+        </xs:unique>
         <!-- RESULTAT -->
-        <xs:key name="cle_resultat">
+        <xs:unique name="unique_resultat">
             <xs:selector xpath="LISTE_CITOYEN/CITOYEN/ANTECEDENTS_MECICAUX/RESULTATS_TESTS_LABORATOIRE/RESULTAT"/>
             <xs:field xpath="@id_resultat"/>
-        </xs:key>
+        </xs:unique>
     </xs:element>
 </xs:schema>
