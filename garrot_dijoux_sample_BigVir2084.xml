@@ -2,17 +2,17 @@
 <BIGVIR xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="garrot_dijoux_schema_BigVir2084.xsd">
     <LISTE_CITOYEN>
         <CITOYEN id_citoyen="1">
-            <NOM>Thibault</NOM>
-            <PRENOM>GARROT</PRENOM>
+            <NOM>GARROT</NOM>
+            <PRENOM>Thibault</PRENOM>
             <SEXE>HOMME</SEXE>
-            <AGE>26</AGE>
+            <AGE>21</AGE>
             <POIDS>75</POIDS>
             <TELEPHONE>+336527384</TELEPHONE>
             <ANTECEDENTS_MECICAUX>
                 <CONSULTATIONS>
                     <CONSULATION id_consultation="1">
                         <LIEU>ANTIBES</LIEU>
-                        <PROFESSIONNEL_SANTE professionnel_sante_id="1"></PROFESSIONNEL_SANTE>
+                        <PROFESSIONNEL_SANTE professionnel_sante_id="1"/>
                         <DATE>2021-08-25</DATE>
                         <MOTIF>Toux grasse</MOTIF>
                     </CONSULATION>
@@ -58,16 +58,16 @@
             </HISTORIQUE_SOCIAL>
         </CITOYEN>
         <CITOYEN id_citoyen="2">
-            <NOM>Robin</NOM>
-            <PRENOM>DIJOUX</PRENOM>
+            <NOM>DIJOUX</NOM>
+            <PRENOM>Robin</PRENOM>
             <SEXE>HOMME</SEXE>
-            <AGE>22</AGE>
-            <POIDS>72</POIDS>
+            <AGE>21</AGE>
+            <POIDS>80</POIDS>
             <TELEPHONE>+33781543100</TELEPHONE>
             <ANTECEDENTS_MECICAUX>
                 <CONSULTATIONS>
-                    <CONSULATION id_consultation="1">
-                        <LIEU></LIEU>
+                    <CONSULATION id_consultation="2">
+                        <LIEU>Cagnes-sur-mer</LIEU>
                         <PROFESSIONNEL_SANTE professionnel_sante_id="2"/>
                         <DATE>2020-08-25</DATE>
                         <MOTIF>Douleur dos</MOTIF>
@@ -96,6 +96,168 @@
                     <DATE>2021-02-28</DATE>
                     <NOM_ACTIVITE>Cinéma</NOM_ACTIVITE>
                     <NB_PARTICIPANTS>2</NB_PARTICIPANTS>
+                    <LIEU_CLOS>true</LIEU_CLOS>
+                    <PUBLIC>true</PUBLIC>
+                    <REF_ETABLISSEMENT>1</REF_ETABLISSEMENT>
+                </ACTIVITE>
+            </HISTORIQUE_SOCIAL>
+        </CITOYEN>
+        <CITOYEN id_citoyen="3">
+            <NOM>BARRIER</NOM>
+            <PRENOM>Jean</PRENOM>
+            <SEXE>HOMME</SEXE>
+            <AGE>44</AGE>
+            <POIDS>85</POIDS>
+            <TELEPHONE>+336527384</TELEPHONE>
+            <ANTECEDENTS_MECICAUX>
+                <CONSULTATIONS>
+                    <CONSULATION id_consultation="3">
+                        <LIEU>Antibes</LIEU>
+                        <PROFESSIONNEL_SANTE professionnel_sante_id="1"/>
+                        <DATE>2021-08-25</DATE>
+                        <MOTIF>Maux de tête</MOTIF>
+                    </CONSULATION>
+                </CONSULTATIONS>
+                <HOSPITALISATIONS>
+                    <HOSPITALISATION id_hospitalisation="3">
+                        <LIEU>Biot</LIEU>
+                        <DATE_ENTREE>2021-03-27</DATE_ENTREE>
+                        <DATE_SORTIE>2021-04-13</DATE_SORTIE>
+                        <MOTIF>Insuffisance respiratoire</MOTIF>
+                    </HOSPITALISATION>
+                    <HOSPITALISATION id_hospitalisation="4">
+                        <LIEU>Villeneuve Loubet</LIEU>
+                        <DATE_ENTREE>2021-05-28</DATE_ENTREE>
+                        <DATE_SORTIE>2021-05-30</DATE_SORTIE>
+                        <MOTIF>Insuffisance respiratoire</MOTIF>
+                    </HOSPITALISATION>
+                </HOSPITALISATIONS>
+                <RESULTATS_TESTS_LABORATOIRE>
+                    <RESULTAT id_resultat="3">
+                        <LABORATOIRE>CERBAILLANCE</LABORATOIRE>
+                        <PROFESSIONNEL_SANTE professionnel_sante_id="2"/>
+                        <POSITIF>true</POSITIF>
+                        <DATE>2021-02-28</DATE>
+                    </RESULTAT>
+                </RESULTATS_TESTS_LABORATOIRE>
+            </ANTECEDENTS_MECICAUX>
+            <STATUT_INFECTION>INFECTE</STATUT_INFECTION>
+            <STATUT_VACCINATION>NON_VACCINE</STATUT_VACCINATION>
+            <STATUT_IMMUNISATION>IMMUNISE</STATUT_IMMUNISATION>
+            <RELATIONS_SOCIALES>
+                <AMI id_ami="2" />
+            </RELATIONS_SOCIALES>
+            <HISTORIQUE_SOCIAL>
+                <ACTIVITE>
+                    <DATE>2021-02-28</DATE>
+                    <NOM_ACTIVITE>Restaurant entre amis</NOM_ACTIVITE>
+                    <NB_PARTICIPANTS>4</NB_PARTICIPANTS>
+                    <LIEU_CLOS>true</LIEU_CLOS>
+                    <PUBLIC>true</PUBLIC>
+                    <REF_ETABLISSEMENT>1</REF_ETABLISSEMENT>
+                </ACTIVITE>
+            </HISTORIQUE_SOCIAL>
+        </CITOYEN>
+        <CITOYEN id_citoyen="4">
+            <NOM>POUCHU</NOM>
+            <PRENOM>Julie</PRENOM>
+            <SEXE>FEMME</SEXE>
+            <AGE>21</AGE>
+            <POIDS>67</POIDS>
+            <TELEPHONE>+336527354</TELEPHONE>
+            <ANTECEDENTS_MECICAUX>
+                <CONSULTATIONS>
+                    <CONSULATION id_consultation="5">
+                        <LIEU>Antibes</LIEU>
+                        <PROFESSIONNEL_SANTE professionnel_sante_id="1"/>
+                        <DATE>2021-08-25</DATE>
+                        <MOTIF>Toux grasse</MOTIF>
+                    </CONSULATION>
+                </CONSULTATIONS>
+                <HOSPITALISATIONS>
+                    <HOSPITALISATION id_hospitalisation="5">
+                        <LIEU>Biot</LIEU>
+                        <DATE_ENTREE>2021-03-27</DATE_ENTREE>
+                        <DATE_SORTIE>2021-04-13</DATE_SORTIE>
+                        <MOTIF>Insuffisance respiratoire</MOTIF>
+                    </HOSPITALISATION>
+                    <HOSPITALISATION id_hospitalisation="6">
+                        <LIEU>Villeneuve Loubet</LIEU>
+                        <DATE_ENTREE>2021-05-28</DATE_ENTREE>
+                        <DATE_SORTIE>2021-05-30</DATE_SORTIE>
+                        <MOTIF>Insuffisance respiratoire</MOTIF>
+                    </HOSPITALISATION>
+                </HOSPITALISATIONS>
+                <RESULTATS_TESTS_LABORATOIRE>
+                    <RESULTAT id_resultat="4">
+                        <LABORATOIRE>CERBAILLANCE</LABORATOIRE>
+                        <PROFESSIONNEL_SANTE professionnel_sante_id="1"/>
+                        <POSITIF>true</POSITIF>
+                        <DATE>2021-02-28</DATE>
+                    </RESULTAT>
+                </RESULTATS_TESTS_LABORATOIRE>
+            </ANTECEDENTS_MECICAUX>
+            <STATUT_INFECTION>INFECTE</STATUT_INFECTION>
+            <STATUT_VACCINATION>NON_VACCINE</STATUT_VACCINATION>
+            <STATUT_IMMUNISATION>NON_IMMUNISE</STATUT_IMMUNISATION>
+            <RELATIONS_SOCIALES>
+                <AMI id_ami="2" />
+            </RELATIONS_SOCIALES>
+            <HISTORIQUE_SOCIAL>
+                <ACTIVITE>
+                    <DATE>2021-02-28</DATE>
+                    <NOM_ACTIVITE>Restaurant entre amis</NOM_ACTIVITE>
+                    <NB_PARTICIPANTS>4</NB_PARTICIPANTS>
+                    <LIEU_CLOS>true</LIEU_CLOS>
+                    <PUBLIC>true</PUBLIC>
+                    <REF_ETABLISSEMENT>1</REF_ETABLISSEMENT>
+                </ACTIVITE>
+            </HISTORIQUE_SOCIAL>
+        </CITOYEN>
+        <CITOYEN id_citoyen="5">
+            <NOM>MARICHON</NOM>
+            <PRENOM>Marie</PRENOM>
+            <SEXE>FEMME</SEXE>
+            <AGE>32</AGE>
+            <POIDS>70</POIDS>
+            <TELEPHONE>+336527384</TELEPHONE>
+            <ANTECEDENTS_MECICAUX>
+                <CONSULTATIONS>
+                    <CONSULATION id_consultation="1">
+                        <LIEU>Nice</LIEU>
+                        <PROFESSIONNEL_SANTE professionnel_sante_id="1"/>
+                        <DATE>2021-08-25</DATE>
+                        <MOTIF>Mal de gorges</MOTIF>
+                    </CONSULATION>
+                </CONSULTATIONS>
+                <HOSPITALISATIONS>
+                    <HOSPITALISATION id_hospitalisation="7">
+                        <LIEU>Nice</LIEU>
+                        <DATE_ENTREE>2021-03-27</DATE_ENTREE>
+                        <DATE_SORTIE>2021-04-13</DATE_SORTIE>
+                        <MOTIF>Insuffisance respiratoire</MOTIF>
+                    </HOSPITALISATION>
+                </HOSPITALISATIONS>
+                <RESULTATS_TESTS_LABORATOIRE>
+                    <RESULTAT id_resultat="5">
+                        <LABORATOIRE>DOCTOPHARMA</LABORATOIRE>
+                        <PROFESSIONNEL_SANTE professionnel_sante_id="3"/>
+                        <POSITIF>false</POSITIF>
+                        <DATE>2020-12-30</DATE>
+                    </RESULTAT>
+                </RESULTATS_TESTS_LABORATOIRE>
+            </ANTECEDENTS_MECICAUX>
+            <STATUT_INFECTION>NON_INFECTE</STATUT_INFECTION>
+            <STATUT_VACCINATION>VACCINE</STATUT_VACCINATION>
+            <STATUT_IMMUNISATION>IMMUNISE</STATUT_IMMUNISATION>
+            <RELATIONS_SOCIALES>
+                <AMI id_ami="2" />
+            </RELATIONS_SOCIALES>
+            <HISTORIQUE_SOCIAL>
+                <ACTIVITE>
+                    <DATE>2021-02-28</DATE>
+                    <NOM_ACTIVITE>Restaurant entre amis</NOM_ACTIVITE>
+                    <NB_PARTICIPANTS>4</NB_PARTICIPANTS>
                     <LIEU_CLOS>true</LIEU_CLOS>
                     <PUBLIC>true</PUBLIC>
                     <REF_ETABLISSEMENT>1</REF_ETABLISSEMENT>
@@ -133,10 +295,13 @@
 
     <LISTE_MEDECINS>
         <MEDECIN id_medecin="1" id_citoyen="1">
-            <SPECIALITE>Médecine générale</SPECIALITE>
+            <SPECIALITE>Médecin généraliste</SPECIALITE>
         </MEDECIN>
         <MEDECIN id_medecin="2" id_citoyen="2">
             <SPECIALITE>Chirurgien</SPECIALITE>
+        </MEDECIN>
+        <MEDECIN id_medecin="3" id_citoyen="5">
+            <SPECIALITE>Médecin généraliste</SPECIALITE>
         </MEDECIN>
     </LISTE_MEDECINS>
 
