@@ -11,7 +11,7 @@
             <ANTECEDENTS_MECICAUX>
                 <CONSULTATIONS>
                     <CONSULATION id_consultation="1">
-                        <LIEU>ANTIBES</LIEU>
+                        <LIEU>Fréjus</LIEU>
                         <PROFESSIONNEL_SANTE professionnel_sante_id="1"/>
                         <DATE>2021-08-25</DATE>
                         <MOTIF>Toux grasse</MOTIF>
@@ -19,15 +19,15 @@
                 </CONSULTATIONS>
                 <HOSPITALISATIONS>
                     <HOSPITALISATION id_hospitalisation="1">
-                        <LIEU>Biot</LIEU>
+                        <LIEU>Fréjus</LIEU>
                         <DATE_ENTREE>2021-03-27</DATE_ENTREE>
-                        <DATE_SORTIE>2021-04-13</DATE_SORTIE>
-                        <MOTIF>Insuffisance respiratoire</MOTIF>
+                        <DATE_SORTIE>2021-03-28</DATE_SORTIE>
+                        <MOTIF>Pneumothorax</MOTIF>
                     </HOSPITALISATION>
                     <HOSPITALISATION id_hospitalisation="2">
-                        <LIEU>Villeneuve Loubet</LIEU>
-                        <DATE_ENTREE>2021-05-28</DATE_ENTREE>
-                        <DATE_SORTIE>2021-05-30</DATE_SORTIE>
+                        <LIEU>Fréjus</LIEU>
+                        <DATE_ENTREE>2021-08-28</DATE_ENTREE>
+                        <DATE_SORTIE>2021-08-30</DATE_SORTIE>
                         <MOTIF>Insuffisance respiratoire</MOTIF>
                     </HOSPITALISATION>
                 </HOSPITALISATIONS>
@@ -36,7 +36,7 @@
                         <LABORATOIRE>CERBAILLANCE</LABORATOIRE>
                         <PROFESSIONNEL_SANTE professionnel_sante_id="1"/>
                         <POSITIF>true</POSITIF>
-                        <DATE>2021-02-28</DATE>
+                        <DATE>2021-08-29</DATE>
                     </RESULTAT>
                 </RESULTATS_TESTS_LABORATOIRE>
             </ANTECEDENTS_MECICAUX>
@@ -54,6 +54,30 @@
                     <LIEU_CLOS>true</LIEU_CLOS>
                     <PUBLIC>true</PUBLIC>
                     <REF_ETABLISSEMENT>1</REF_ETABLISSEMENT>
+                </ACTIVITE>
+                <ACTIVITE>
+                    <DATE>2021-10-30</DATE>
+                    <NOM_ACTIVITE>MNM's</NOM_ACTIVITE>
+                    <NB_PARTICIPANTS>800</NB_PARTICIPANTS>
+                    <LIEU_CLOS>true</LIEU_CLOS>
+                    <PUBLIC>true</PUBLIC>
+                    <REF_ETABLISSEMENT>4</REF_ETABLISSEMENT>
+                </ACTIVITE>
+                <ACTIVITE>
+                    <DATE>2021-01-2021</DATE>
+                    <NOM_ACTIVITE>Surf</NOM_ACTIVITE>
+                    <NB_PARTICIPANTS>1</NB_PARTICIPANTS>
+                    <LIEU_CLOS>false</LIEU_CLOS>
+                    <PUBLIC>true</PUBLIC>
+                    <REF_LIEU>3</REF_LIEU>
+                </ACTIVITE>
+                <ACTIVITE>
+                    <DATE>2021-06-2021</DATE>
+                    <NOM_ACTIVITE>Surf</NOM_ACTIVITE>
+                    <NB_PARTICIPANTS>2</NB_PARTICIPANTS>
+                    <LIEU_CLOS>false</LIEU_CLOS>
+                    <PUBLIC>true</PUBLIC>
+                    <REF_LIEU>3</REF_LIEU>
                 </ACTIVITE>
             </HISTORIQUE_SOCIAL>
         </CITOYEN>
@@ -93,12 +117,28 @@
             </RELATIONS_SOCIALES>
             <HISTORIQUE_SOCIAL>
                 <ACTIVITE>
-                    <DATE>2021-02-28</DATE>
+                    <DATE>2021-01-13</DATE>
                     <NOM_ACTIVITE>Cinéma</NOM_ACTIVITE>
                     <NB_PARTICIPANTS>2</NB_PARTICIPANTS>
                     <LIEU_CLOS>true</LIEU_CLOS>
                     <PUBLIC>true</PUBLIC>
                     <REF_ETABLISSEMENT>1</REF_ETABLISSEMENT>
+                </ACTIVITE>
+                <ACTIVITE>
+                    <DATE>2021-02-28</DATE>
+                    <NOM_ACTIVITE>Restaurant entre amis</NOM_ACTIVITE>
+                    <NB_PARTICIPANTS>4</NB_PARTICIPANTS>
+                    <LIEU_CLOS>true</LIEU_CLOS>
+                    <PUBLIC>true</PUBLIC>
+                    <REF_ETABLISSEMENT>1</REF_ETABLISSEMENT>
+                </ACTIVITE>
+                <ACTIVITE>
+                    <DATE>2021-06-2021</DATE>
+                    <NOM_ACTIVITE>Surf</NOM_ACTIVITE>
+                    <NB_PARTICIPANTS>2</NB_PARTICIPANTS>
+                    <LIEU_CLOS>false</LIEU_CLOS>
+                    <PUBLIC>true</PUBLIC>
+                    <REF_LIEU>3</REF_LIEU>
                 </ACTIVITE>
             </HISTORIQUE_SOCIAL>
         </CITOYEN>
@@ -206,11 +246,11 @@
             <HISTORIQUE_SOCIAL>
                 <ACTIVITE>
                     <DATE>2021-02-28</DATE>
-                    <NOM_ACTIVITE>Restaurant entre amis</NOM_ACTIVITE>
-                    <NB_PARTICIPANTS>4</NB_PARTICIPANTS>
+                    <NOM_ACTIVITE>Restaurant en amoureux</NOM_ACTIVITE>
+                    <NB_PARTICIPANTS>2</NB_PARTICIPANTS>
                     <LIEU_CLOS>true</LIEU_CLOS>
                     <PUBLIC>true</PUBLIC>
-                    <REF_ETABLISSEMENT>1</REF_ETABLISSEMENT>
+                    <REF_ETABLISSEMENT>2</REF_ETABLISSEMENT>
                 </ACTIVITE>
             </HISTORIQUE_SOCIAL>
         </CITOYEN>
@@ -255,12 +295,72 @@
             </RELATIONS_SOCIALES>
             <HISTORIQUE_SOCIAL>
                 <ACTIVITE>
+                    <DATE>2020-08-20</DATE>
+                    <NOM_ACTIVITE>Festival Crossover</NOM_ACTIVITE>
+                    <NB_PARTICIPANTS>3</NB_PARTICIPANTS>
+                    <LIEU_CLOS>false</LIEU_CLOS>
+                    <PUBLIC>true</PUBLIC>
+                    <REF_LIEU>1</REF_LIEU>
+                </ACTIVITE>
+                <ACTIVITE>
+                    <DATE>2021-11-01</DATE>
+                    <NOM_ACTIVITE>Halloween Party</NOM_ACTIVITE>
+                    <NB_PARTICIPANTS>6</NB_PARTICIPANTS>
+                    <LIEU_CLOS>true</LIEU_CLOS>
+                    <PUBLIC>true</PUBLIC>
+                    <REF_ETABLISSEMENT>3</REF_ETABLISSEMENT>
+                </ACTIVITE>
+            </HISTORIQUE_SOCIAL>
+        </CITOYEN>
+        <CITOYEN id_citoyen="6">
+            <NOM>CAYLA</NOM>
+            <PRENOM>Arnaud</PRENOM>
+            <SEXE>HOMME</SEXE>
+            <AGE>21</AGE>
+            <POIDS>89</POIDS>
+            <TELEPHONE>+336567867</TELEPHONE>
+            <ANTECEDENTS_MECICAUX>
+                <CONSULTATIONS>
+                </CONSULTATIONS>
+                <HOSPITALISATIONS>
+                </HOSPITALISATIONS>
+                <RESULTATS_TESTS_LABORATOIRE>
+                    <RESULTAT id_resultat="6">
+                        <LABORATOIRE>Laboratoire international d'Antibes</LABORATOIRE>
+                        <PROFESSIONNEL_SANTE professionnel_sante_id="3"/>
+                        <POSITIF>false</POSITIF>
+                        <DATE>2021-05-28</DATE>
+                    </RESULTAT>
+                    <RESULTAT id_resultat="7">
+                        <LABORATOIRE>Laboratoire international d'Antibes</LABORATOIRE>
+                        <PROFESSIONNEL_SANTE professionnel_sante_id="1"/>
+                        <POSITIF>false</POSITIF>
+                        <DATE>2021-06-05</DATE>
+                    </RESULTAT>
+                </RESULTATS_TESTS_LABORATOIRE>
+            </ANTECEDENTS_MECICAUX>
+            <STATUT_INFECTION>NON_INFECTE</STATUT_INFECTION>
+            <STATUT_VACCINATION>VACCINE</STATUT_VACCINATION>
+            <STATUT_IMMUNISATION>IMMUNISE</STATUT_IMMUNISATION>
+            <RELATIONS_SOCIALES>
+                <AMI id_ami="2" />
+            </RELATIONS_SOCIALES>
+            <HISTORIQUE_SOCIAL>
+                <ACTIVITE>
                     <DATE>2021-02-28</DATE>
                     <NOM_ACTIVITE>Restaurant entre amis</NOM_ACTIVITE>
                     <NB_PARTICIPANTS>4</NB_PARTICIPANTS>
                     <LIEU_CLOS>true</LIEU_CLOS>
                     <PUBLIC>true</PUBLIC>
                     <REF_ETABLISSEMENT>1</REF_ETABLISSEMENT>
+                </ACTIVITE>
+                <ACTIVITE>
+                    <DATE>2021-10-30</DATE>
+                    <NOM_ACTIVITE>MNM's</NOM_ACTIVITE>
+                    <NB_PARTICIPANTS>800</NB_PARTICIPANTS>
+                    <LIEU_CLOS>true</LIEU_CLOS>
+                    <PUBLIC>true</PUBLIC>
+                    <REF_ETABLISSEMENT>4</REF_ETABLISSEMENT>
                 </ACTIVITE>
             </HISTORIQUE_SOCIAL>
         </CITOYEN>
@@ -278,6 +378,18 @@
             <SUPERFICIE>55</SUPERFICIE>
             <NB_PLACES>65</NB_PLACES>
         </ETABLISSEMENT>
+        <ETABLISSEMENT id_etablissement="3">
+            <NOM_ETABLISSEMENT>Palais Nikaïa</NOM_ETABLISSEMENT>
+            <ADRESSE>Nice</ADRESSE>
+            <SUPERFICIE>9500</SUPERFICIE>
+            <NB_PLACES>9000</NB_PLACES>
+        </ETABLISSEMENT>
+        <ETABLISSEMENT id_etablissement="4">
+            <NOM_ETABLISSEMENT>Florida Palace</NOM_ETABLISSEMENT>
+            <ADRESSE>Nice</ADRESSE>
+            <SUPERFICIE>1500</SUPERFICIE>
+            <NB_PLACES>800</NB_PLACES>
+        </ETABLISSEMENT>
     </LISTE_ETABLISSEMENTS>
 
     <LISTE_LIEUX>
@@ -291,13 +403,18 @@
             <ADRESSE>Avenue de la Majorette</ADRESSE>
             <CODE_POSTAL>06000</CODE_POSTAL>
         </LIEU>
+        <LIEU id_lieu="3">
+            <NOM_LIEU>Les escalamandes</NOM_LIEU>
+            <ADRESSE>Plage de Saint-Aygulf</ADRESSE>
+            <CODE_POSTAL>83370</CODE_POSTAL>
+        </LIEU>
     </LISTE_LIEUX>
 
     <LISTE_MEDECINS>
-        <MEDECIN id_medecin="1" id_citoyen="1">
+        <MEDECIN id_medecin="1" id_citoyen="3">
             <SPECIALITE>Médecin généraliste</SPECIALITE>
         </MEDECIN>
-        <MEDECIN id_medecin="2" id_citoyen="2">
+        <MEDECIN id_medecin="2" id_citoyen="4">
             <SPECIALITE>Chirurgien</SPECIALITE>
         </MEDECIN>
         <MEDECIN id_medecin="3" id_citoyen="5">
