@@ -20,11 +20,17 @@
                 <HOSPITALISATIONS>
                     <HOSPITALISATION id_hospitalisation="1">
                         <LIEU>Fréjus</LIEU>
+                        <DATE_ENTREE>2021-01-28</DATE_ENTREE>
+                        <DATE_SORTIE>2021-02-04</DATE_SORTIE>
+                        <MOTIF>Fracture ouverte de l'épaule</MOTIF>
+                    </HOSPITALISATION>
+                    <HOSPITALISATION id_hospitalisation="2">
+                        <LIEU>Fréjus</LIEU>
                         <DATE_ENTREE>2021-03-27</DATE_ENTREE>
                         <DATE_SORTIE>2021-03-28</DATE_SORTIE>
                         <MOTIF>Pneumothorax</MOTIF>
                     </HOSPITALISATION>
-                    <HOSPITALISATION id_hospitalisation="2">
+                    <HOSPITALISATION id_hospitalisation="3">
                         <LIEU>Fréjus</LIEU>
                         <DATE_ENTREE>2021-08-28</DATE_ENTREE>
                         <DATE_SORTIE>2021-08-30</DATE_SORTIE>
@@ -45,6 +51,7 @@
             <STATUT_IMMUNISATION>IMMUNISE</STATUT_IMMUNISATION>
             <RELATIONS_SOCIALES>
                 <AMI id_ami="2" />
+                <AMI id_ami="6" />
             </RELATIONS_SOCIALES>
             <HISTORIQUE_SOCIAL>
                 <ACTIVITE>
@@ -114,6 +121,7 @@
             <STATUT_IMMUNISATION>NON_IMMUNISE</STATUT_IMMUNISATION>
             <RELATIONS_SOCIALES>
                 <AMI id_ami="1" />
+                <AMI id_ami="6"/>
             </RELATIONS_SOCIALES>
             <HISTORIQUE_SOCIAL>
                 <ACTIVITE>
@@ -159,13 +167,13 @@
                     </CONSULATION>
                 </CONSULTATIONS>
                 <HOSPITALISATIONS>
-                    <HOSPITALISATION id_hospitalisation="3">
+                    <HOSPITALISATION id_hospitalisation="4">
                         <LIEU>Biot</LIEU>
                         <DATE_ENTREE>2021-03-27</DATE_ENTREE>
                         <DATE_SORTIE>2021-04-13</DATE_SORTIE>
                         <MOTIF>Insuffisance respiratoire</MOTIF>
                     </HOSPITALISATION>
-                    <HOSPITALISATION id_hospitalisation="4">
+                    <HOSPITALISATION id_hospitalisation="5">
                         <LIEU>Villeneuve Loubet</LIEU>
                         <DATE_ENTREE>2021-05-28</DATE_ENTREE>
                         <DATE_SORTIE>2021-05-30</DATE_SORTIE>
@@ -215,13 +223,13 @@
                     </CONSULATION>
                 </CONSULTATIONS>
                 <HOSPITALISATIONS>
-                    <HOSPITALISATION id_hospitalisation="5">
+                    <HOSPITALISATION id_hospitalisation="6">
                         <LIEU>Biot</LIEU>
                         <DATE_ENTREE>2021-03-27</DATE_ENTREE>
                         <DATE_SORTIE>2021-04-13</DATE_SORTIE>
                         <MOTIF>Insuffisance respiratoire</MOTIF>
                     </HOSPITALISATION>
-                    <HOSPITALISATION id_hospitalisation="6">
+                    <HOSPITALISATION id_hospitalisation="7">
                         <LIEU>Villeneuve Loubet</LIEU>
                         <DATE_ENTREE>2021-05-28</DATE_ENTREE>
                         <DATE_SORTIE>2021-05-30</DATE_SORTIE>
@@ -271,7 +279,7 @@
                     </CONSULATION>
                 </CONSULTATIONS>
                 <HOSPITALISATIONS>
-                    <HOSPITALISATION id_hospitalisation="7">
+                    <HOSPITALISATION id_hospitalisation="8">
                         <LIEU>Nice</LIEU>
                         <DATE_ENTREE>2021-03-27</DATE_ENTREE>
                         <DATE_SORTIE>2021-04-13</DATE_SORTIE>
@@ -343,6 +351,7 @@
             <STATUT_VACCINATION>VACCINE</STATUT_VACCINATION>
             <STATUT_IMMUNISATION>IMMUNISE</STATUT_IMMUNISATION>
             <RELATIONS_SOCIALES>
+                <AMI id_ami="1" />
                 <AMI id_ami="2" />
             </RELATIONS_SOCIALES>
             <HISTORIQUE_SOCIAL>
