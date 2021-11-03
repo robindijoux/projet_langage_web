@@ -21,7 +21,7 @@
                                         </xs:element>
                                         <xs:element name="AGE" type="xs:positiveInteger"/>
                                         <xs:element name="POIDS" type="xs:positiveInteger"/>
-                                        <xs:element name="TELEPHONE" type="xs:string"/>
+                                        <xs:element name="TELEPHONE" type="phone"/>
                                         <xs:element name="ANTECEDENTS_MECICAUX">
                                             <xs:complexType>
                                                 <xs:sequence>
@@ -129,7 +129,7 @@
                                                     <xs:element name="ACTIVITE" minOccurs="0" maxOccurs="unbounded">
                                                         <xs:complexType>
                                                             <xs:sequence>
-                                                                <xs:element name="DATE" type="xs:string"/>
+                                                                <xs:element name="DATE" type="xs:date"/>
                                                                 <xs:element name="NOM_ACTIVITE" type="xs:string"/>
                                                                 <xs:element name="NB_PARTICIPANTS" type="xs:positiveInteger"/>
                                                                 <xs:element name="LIEU_CLOS" type="xs:boolean"/>
@@ -262,4 +262,9 @@
             <xs:field xpath="@id_resultat"/>
         </xs:unique>
     </xs:element>
+    <xs:simpleType name="phone">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="\d{10}"/>
+        </xs:restriction>
+    </xs:simpleType>
 </xs:schema>

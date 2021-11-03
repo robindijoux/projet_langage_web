@@ -7,7 +7,7 @@
             <SEXE>HOMME</SEXE>
             <AGE>21</AGE>
             <POIDS>75</POIDS>
-            <TELEPHONE>+336527384</TELEPHONE>
+            <TELEPHONE>0652738470</TELEPHONE>
             <ANTECEDENTS_MECICAUX>
                 <CONSULTATIONS>
                     <CONSULATION id_consultation="1">
@@ -71,7 +71,7 @@
                     <REF_ETABLISSEMENT>4</REF_ETABLISSEMENT>
                 </ACTIVITE>
                 <ACTIVITE>
-                    <DATE>2021-01-2021</DATE>
+                    <DATE>2021-11-01</DATE>
                     <NOM_ACTIVITE>Surf</NOM_ACTIVITE>
                     <NB_PARTICIPANTS>1</NB_PARTICIPANTS>
                     <LIEU_CLOS>false</LIEU_CLOS>
@@ -79,7 +79,7 @@
                     <REF_LIEU>3</REF_LIEU>
                 </ACTIVITE>
                 <ACTIVITE>
-                    <DATE>2021-06-2021</DATE>
+                    <DATE>2021-11-06</DATE>
                     <NOM_ACTIVITE>Surf</NOM_ACTIVITE>
                     <NB_PARTICIPANTS>2</NB_PARTICIPANTS>
                     <LIEU_CLOS>false</LIEU_CLOS>
@@ -94,7 +94,7 @@
             <SEXE>HOMME</SEXE>
             <AGE>21</AGE>
             <POIDS>80</POIDS>
-            <TELEPHONE>+33781543100</TELEPHONE>
+            <TELEPHONE>0652738570</TELEPHONE>
             <ANTECEDENTS_MECICAUX>
                 <CONSULTATIONS>
                     <CONSULATION id_consultation="2">
@@ -141,7 +141,7 @@
                     <REF_ETABLISSEMENT>1</REF_ETABLISSEMENT>
                 </ACTIVITE>
                 <ACTIVITE>
-                    <DATE>2021-06-2021</DATE>
+                    <DATE>2021-11-06</DATE>
                     <NOM_ACTIVITE>Surf</NOM_ACTIVITE>
                     <NB_PARTICIPANTS>2</NB_PARTICIPANTS>
                     <LIEU_CLOS>false</LIEU_CLOS>
@@ -156,7 +156,7 @@
             <SEXE>HOMME</SEXE>
             <AGE>44</AGE>
             <POIDS>85</POIDS>
-            <TELEPHONE>+336527384</TELEPHONE>
+            <TELEPHONE>0651743570</TELEPHONE>
             <ANTECEDENTS_MECICAUX>
                 <CONSULTATIONS>
                     <CONSULATION id_consultation="3">
@@ -212,7 +212,7 @@
             <SEXE>FEMME</SEXE>
             <AGE>21</AGE>
             <POIDS>67</POIDS>
-            <TELEPHONE>+336527354</TELEPHONE>
+            <TELEPHONE>0757023570</TELEPHONE>
             <ANTECEDENTS_MECICAUX>
                 <CONSULTATIONS>
                     <CONSULATION id_consultation="5">
@@ -268,7 +268,7 @@
             <SEXE>FEMME</SEXE>
             <AGE>32</AGE>
             <POIDS>70</POIDS>
-            <TELEPHONE>+336527384</TELEPHONE>
+            <TELEPHONE>0600145570</TELEPHONE>
             <ANTECEDENTS_MECICAUX>
                 <CONSULTATIONS>
                     <CONSULATION id_consultation="1">
@@ -326,7 +326,7 @@
             <SEXE>HOMME</SEXE>
             <AGE>21</AGE>
             <POIDS>89</POIDS>
-            <TELEPHONE>+336567867</TELEPHONE>
+            <TELEPHONE>0743638590</TELEPHONE>
             <ANTECEDENTS_MECICAUX>
                 <CONSULTATIONS>
                 </CONSULTATIONS>
