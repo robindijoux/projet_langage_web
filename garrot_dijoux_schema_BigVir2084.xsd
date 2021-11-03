@@ -28,7 +28,7 @@
                                                     <xs:element name="CONSULTATIONS">
                                                         <xs:complexType>
                                                             <xs:sequence>
-                                                                <xs:element name="CONSULATION" minOccurs="0" maxOccurs="unbounded">
+                                                                <xs:element name="CONSULTATION" minOccurs="0" maxOccurs="unbounded">
                                                                     <xs:complexType>
                                                                         <xs:sequence>
                                                                             <xs:element name="LIEU" type="xs:string" nillable="false"/>
