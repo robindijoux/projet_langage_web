@@ -20,9 +20,7 @@
             <p><strong>Poids :</strong> <xsl:value-of select="POIDS"/> kg</p>
             <p><strong>Téléphone :</strong> <xsl:value-of select="TELEPHONE"/></p>
         </div>
-        <xsl:apply-templates select="ANTECEDENTS_MECICAUX/CONSULTATIONS/CONSULTATION">
-                <xsl:sort select="DATE"/>
-        </xsl:apply-templates>
+        <xsl:apply-templates select="ANTECEDENTS_MECICAUX/CONSULTATIONS/CONSULTATION"/>
     </xsl:template>
 
     <xsl:template match="CONSULTATION">

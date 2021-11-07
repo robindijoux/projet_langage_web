@@ -107,13 +107,13 @@
                     <CONSULTATION id_consultation="7">
                         <LIEU>Cagnes-sur-mer</LIEU>
                         <PROFESSIONNEL_SANTE professionnel_sante_id="1"/>
-                        <DATE>2020-08-20</DATE>
+                        <DATE>2021-08-20</DATE>
                         <MOTIF>Douleur dos</MOTIF>
                     </CONSULTATION>
                     <CONSULTATION id_consultation="6">
                         <LIEU>Cagnes-sur-mer</LIEU>
                         <PROFESSIONNEL_SANTE professionnel_sante_id="1"/>
-                        <DATE>2020-07-20</DATE>
+                        <DATE>2021-07-20</DATE>
                         <MOTIF>Douleur dos</MOTIF>
                     </CONSULTATION>
                 </CONSULTATIONS>
