@@ -25,7 +25,7 @@
                                         <xs:element name="ANTECEDENTS_MECICAUX">
                                             <xs:complexType>
                                                 <xs:sequence>
-                                                    <xs:element name="CONSULTATIONS">
+                                                    <xs:element name="CONSULTATIONS" maxOccurs="1">
                                                         <xs:complexType>
                                                             <xs:sequence>
                                                                 <xs:element name="CONSULTATION" minOccurs="0" maxOccurs="unbounded">
@@ -46,7 +46,7 @@
                                                             </xs:sequence>
                                                         </xs:complexType>
                                                     </xs:element>
-                                                    <xs:element name="HOSPITALISATIONS">
+                                                    <xs:element name="HOSPITALISATIONS" maxOccurs="1">
                                                         <xs:complexType>
                                                             <xs:sequence>
                                                                 <xs:element name="HOSPITALISATION" minOccurs="0" maxOccurs="unbounded">
@@ -63,7 +63,7 @@
                                                             </xs:sequence>
                                                         </xs:complexType>
                                                     </xs:element>
-                                                    <xs:element name="RESULTATS_TESTS_LABORATOIRE">
+                                                    <xs:element name="RESULTATS_TESTS_LABORATOIRE" maxOccurs="1">
                                                         <xs:complexType>
                                                             <xs:sequence>
                                                                 <xs:element name="RESULTAT" minOccurs="0" maxOccurs="unbounded">

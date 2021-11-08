@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xml" href="sheet5.xsl"?>
+<?xml-stylesheet type="text/xml" href="sheet7.xsl"?>
 <BIGVIR xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="garrot_dijoux_schema_BigVir2084.xsd">
     <LISTE_CITOYEN>
         <CITOYEN id_citoyen="1">
@@ -272,6 +272,14 @@
                     <LIEU_CLOS>true</LIEU_CLOS>
                     <PUBLIC>true</PUBLIC>
                     <REF_ETABLISSEMENT>2</REF_ETABLISSEMENT>
+                </ACTIVITE>
+                <ACTIVITE>
+                    <DATE>2021-02-28</DATE>
+                    <NOM_ACTIVITE>Cinéma</NOM_ACTIVITE>
+                    <NB_PARTICIPANTS>23</NB_PARTICIPANTS>
+                    <LIEU_CLOS>true</LIEU_CLOS>
+                    <PUBLIC>true</PUBLIC>
+                    <REF_ETABLISSEMENT>8</REF_ETABLISSEMENT>
                 </ACTIVITE>
             </HISTORIQUE_SOCIAL>
         </CITOYEN>
