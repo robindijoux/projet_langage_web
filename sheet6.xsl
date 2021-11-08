@@ -6,7 +6,7 @@
             <title>Tous les établissements de capacité supérieure à 200 personnes triés par capacité</title>
         </head>
         <body style="text-align : center">
-            <h1>Les <xsl:value-of select="count(LISTE_ETABLISSEMENTS/ETABLISSEMENT[NB_PLACES>200])"/> établissements de capacité supérieure à 200 personnes triées par capacité</h1>
+            <h1>Les <xsl:value-of select="count(LISTE_ETABLISSEMENTS/ETABLISSEMENT[NB_PLACES>200])"/> établissements de capacité supérieure à 200 personnes triés par capacité</h1>
             <xsl:apply-templates select="LISTE_ETABLISSEMENTS/ETABLISSEMENT[NB_PLACES>200]">
                     <xsl:sort select="NB_PLACES"/>
             </xsl:apply-templates>
