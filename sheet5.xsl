@@ -3,10 +3,10 @@
     <xsl:output method="html" encoding="ISO-8859-1"/>
     <xsl:template match="/BIGVIR">
         <head>
-            <title>Tous les citoyens non vaccinés qui ont le BIGVIR, trié par age croissant</title>
+            <title>Tous les citoyens non vaccinés qui ont le BIGVIR, triés par age croissant</title>
         </head>
         <body style="text-align : center">
-            <h1>Les <xsl:value-of select="count(LISTE_CITOYEN/CITOYEN[STATUT_VACCINATION='NON_VACCINE' and STATUT_INFECTION='INFECTE'])"/> citoyens non vaccinés qui ont le BIGVIR, trié par age croissant</h1>
+            <h1>Les <xsl:value-of select="count(LISTE_CITOYEN/CITOYEN[STATUT_VACCINATION='NON_VACCINE' and STATUT_INFECTION='INFECTE'])"/> citoyens non vaccinés qui ont le BIGVIR, triés par age croissant</h1>
             <div style="display:flex; justify-content:center;">
                 <xsl:apply-templates select="LISTE_CITOYEN/CITOYEN[STATUT_VACCINATION='NON_VACCINE' and STATUT_INFECTION='INFECTE']"/>
             </div>
