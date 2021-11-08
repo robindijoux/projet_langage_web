@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xml" href="sheet1.xsl"?>
+<?xml-stylesheet type="text/xml" href="sheet6.xsl"?>
 <BIGVIR xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="garrot_dijoux_schema_BigVir2084.xsd">
     <LISTE_CITOYEN>
         <CITOYEN id_citoyen="1">
@@ -284,7 +284,7 @@
             <TELEPHONE>0600145570</TELEPHONE>
             <ANTECEDENTS_MECICAUX>
                 <CONSULTATIONS>
-                    <CONSULTATION id_consultation="7">
+                    <CONSULTATION id_consultation="8">
                         <LIEU>Nice</LIEU>
                         <PROFESSIONNEL_SANTE professionnel_sante_id="1"/>
                         <DATE>2021-08-25</DATE>
@@ -411,6 +411,42 @@
             <ADRESSE>Nice</ADRESSE>
             <SUPERFICIE>1500</SUPERFICIE>
             <NB_PLACES>800</NB_PLACES>
+        </ETABLISSEMENT>
+        <ETABLISSEMENT id_etablissement="5">
+            <NOM_ETABLISSEMENT>L'assiette Nature</NOM_ETABLISSEMENT>
+            <ADRESSE>Sophia</ADRESSE>
+            <SUPERFICIE>70</SUPERFICIE>
+            <NB_PLACES>47</NB_PLACES>
+        </ETABLISSEMENT>
+        <ETABLISSEMENT id_etablissement="6">
+            <NOM_ETABLISSEMENT>Green 2.0</NOM_ETABLISSEMENT>
+            <ADRESSE>Cannes</ADRESSE>
+            <SUPERFICIE>220</SUPERFICIE>
+            <NB_PLACES>90</NB_PLACES>
+        </ETABLISSEMENT>
+        <ETABLISSEMENT id_etablissement="7">
+            <NOM_ETABLISSEMENT>B'nB Hotel</NOM_ETABLISSEMENT>
+            <ADRESSE>Menton</ADRESSE>
+            <SUPERFICIE>500</SUPERFICIE>
+            <NB_PLACES>300</NB_PLACES>
+        </ETABLISSEMENT>
+        <ETABLISSEMENT id_etablissement="8">
+            <NOM_ETABLISSEMENT>Le cinéma Casino</NOM_ETABLISSEMENT>
+            <ADRESSE>Antibes</ADRESSE>
+            <SUPERFICIE>80</SUPERFICIE>
+            <NB_PLACES>50</NB_PLACES>
+        </ETABLISSEMENT>
+        <ETABLISSEMENT id_etablissement="9">
+            <NOM_ETABLISSEMENT>Cinéma CGR</NOM_ETABLISSEMENT>
+            <ADRESSE>Cagnes-sur-Mer</ADRESSE>
+            <SUPERFICIE>350</SUPERFICIE>
+            <NB_PLACES>270</NB_PLACES>
+        </ETABLISSEMENT>
+        <ETABLISSEMENT id_etablissement="10">
+            <NOM_ETABLISSEMENT>Tiffany's Kitchen</NOM_ETABLISSEMENT>
+            <ADRESSE>Vallauris</ADRESSE>
+            <SUPERFICIE>700</SUPERFICIE>
+            <NB_PLACES>430</NB_PLACES>
         </ETABLISSEMENT>
     </LISTE_ETABLISSEMENTS>
 
