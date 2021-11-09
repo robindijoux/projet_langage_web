@@ -412,6 +412,144 @@
 				}
 			],
 			"_id_citoyen": "6"
+		},
+		{
+			"NOM": "Tournat",
+			"PRENOM": "Nicolas",
+			"SEXE": "HOMME",
+			"AGE": "29",
+			"POIDS": "90",
+			"TELEPHONE": "0782018392",
+			"ANTECEDENTS_MECICAUX": {
+				"CONSULTATIONS": [],
+				"HOSPITALISATIONS": [],
+				"RESULTATS_TESTS_LABORATOIRE": []
+			},
+			"STATUT_INFECTION": "NON_INFECTE",
+			"STATUT_VACCINATION": "NON_VACCINE",
+			"STATUT_IMMUNISATION": "IMMUNISE",
+			"RELATIONS_SOCIALES": [
+				"2","6","1"
+			],
+			"HISTORIQUE_SOCIAL": [
+				{
+					"DATE": "2021-05-29",
+					"NOM_ACTIVITE": "Pièce de théatre",
+					"NB_PARTICIPANTS": "34",
+					"LIEU_CLOS": "false",
+					"PUBLIC": "true",
+					"REF_LIEU": "1"
+				},
+				{
+					"DATE": "2020-12-13",
+					"NOM_ACTIVITE": "Anniversaire au restaurant",
+					"NB_PARTICIPANTS": "4",
+					"LIEU_CLOS": "true",
+					"PUBLIC": "false",
+					"REF_ETABLISSEMENT": "10"
+				}
+			],
+			"_id_citoyen": "7"
+		},
+		{
+			"NOM": "Edwige",
+			"PRENOM": "Béatrice",
+			"SEXE": "FEMME",
+			"AGE": "31",
+			"POIDS": "63",
+			"TELEPHONE": "0327189302",
+			"ANTECEDENTS_MECICAUX": {
+				"CONSULTATIONS": [],
+				"HOSPITALISATIONS": [
+					{
+						"LIEU": "Clinique Durieux",
+						"DATE_ENTREE": "2019-02-17",
+						"DATE_SORTIE": "2019-03-17",
+						"MOTIF": "Peritonite aigue",
+						"_id_hospitalisation": "13"
+					}
+				],
+				"RESULTATS_TESTS_LABORATOIRE": [
+					{
+						"LABORATOIRE": "Finup Test",
+						"_professionnel_sante_id": "3",
+						"POSITIF": "true",
+						"DATE": "2021-06-26",
+						"_id_resultat": "12"
+					}
+				]
+			},
+			"STATUT_INFECTION": "INFECTE",
+			"STATUT_VACCINATION": "EN_COURS",
+			"STATUT_IMMUNISATION": "NON_IMMUNISE",
+			"RELATIONS_SOCIALES": [
+				"7","4"
+			],
+			"HISTORIQUE_SOCIAL": [
+				{
+					"DATE": "2020-12-13",
+					"NOM_ACTIVITE": "Anniversaire au restaurant",
+					"NB_PARTICIPANTS": "4",
+					"LIEU_CLOS": "true",
+					"PUBLIC": "false",
+					"REF_ETABLISSEMENT": "10"
+				}
+			],
+			"_id_citoyen": "8"
+		},
+		{
+			"NOM": "Bivard",
+			"PRENOM": "Carla",
+			"SEXE": "FEMME",
+			"AGE": "51",
+			"POIDS": "69",
+			"TELEPHONE": "0327129312",
+			"ANTECEDENTS_MECICAUX": {
+				"CONSULTATIONS": [
+					{
+						"LIEU": "FabLab",
+						"_professionnel_sante_id": "1",
+						"DATE": "2021-07-13",
+						"MOTIF": "Gorge qui pique",
+						"_id_conqultation":"9"
+					}
+				],
+				"HOSPITALISATIONS": [
+					{
+						"LIEU": "Hopital Bonaparte",
+						"DATE_ENTREE": "2021-07-16",
+						"DATE_SORTIE": "2021-07-27",
+						"MOTIF": "Insufisance reqpiratoire",
+						"_id_hospitalisation": "11"
+					}
+				],
+				"RESULTATS_TESTS_LABORATOIRE": [
+					{
+						"LABORATOIRE": "Finup Test",
+						"_professionnel_sante_id": "2",
+						"POSITIF": "true",
+						"DATE": "2021-07-02",
+						"_id_resultat": "11"
+					}
+				]
+			},
+			"STATUT_INFECTION": "INFECTE",
+			"STATUT_VACCINATION": "NON_VACCINE",
+			"STATUT_IMMUNISATION": "NON_IMMUNISE",
+			"RELATIONS_SOCIALES": [
+				"7","4","8"
+			],
+			"HISTORIQUE_SOCIAL": [
+				{
+					"DATE": "2020-12-13",
+					"NOM_ACTIVITE": "Anniversaire au restaurant",
+					"NB_PARTICIPANTS": "4",
+					"LIEU_CLOS": "true",
+					"PUBLIC": "false",
+					"REF_ETABLISSEMENT": "10"
+				}
+			],
+			"_id_citoyen": "9"
 		}
 	],
 	"LISTE_ETABLISSEMENTS": [

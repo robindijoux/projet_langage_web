@@ -404,6 +404,141 @@
                 </ACTIVITE>
             </HISTORIQUE_SOCIAL>
         </CITOYEN>
+        <CITOYEN id_citoyen="7">
+            <NOM>Tournat</NOM>
+            <PRENOM>Nicolas</PRENOM>
+            <SEXE>HOMME</SEXE>
+            <AGE>29</AGE>
+            <POIDS>90</POIDS>
+            <TELEPHONE>0782018392</TELEPHONE>
+            <ANTECEDENTS_MECICAUX>
+                <CONSULTATIONS></CONSULTATIONS>
+                <HOSPITALISATIONS></HOSPITALISATIONS>
+                <RESULTATS_TESTS_LABORATOIRE></RESULTATS_TESTS_LABORATOIRE>
+            </ANTECEDENTS_MECICAUX>
+            <STATUT_INFECTION>NON_INFECTE</STATUT_INFECTION>
+            <STATUT_VACCINATION>NON_VACCINE</STATUT_VACCINATION>
+            <STATUT_IMMUNISATION>IMMUNISE</STATUT_IMMUNISATION>
+            <RELATIONS_SOCIALES>
+                <AMI id_ami="2" />
+                <AMI id_ami="6" />
+                <AMI id_ami="1" />
+            </RELATIONS_SOCIALES>
+            <HISTORIQUE_SOCIAL>
+                <ACTIVITE>
+                    <DATE>2021-05-29</DATE>
+                    <NOM_ACTIVITE>Pièce de théatre</NOM_ACTIVITE>
+                    <NB_PARTICIPANTS>34</NB_PARTICIPANTS>
+                    <LIEU_CLOS>false</LIEU_CLOS>
+                    <PUBLIC>true</PUBLIC>
+                    <REF_LIEU>1</REF_LIEU>
+                </ACTIVITE>
+                <ACTIVITE>
+                    <DATE>2020-12-13</DATE>
+                    <NOM_ACTIVITE>Anniversaire au restaurant</NOM_ACTIVITE>
+                    <NB_PARTICIPANTS>4</NB_PARTICIPANTS>
+                    <LIEU_CLOS>true</LIEU_CLOS>
+                    <PUBLIC>false</PUBLIC>
+                    <REF_ETABLISSEMENT>10</REF_ETABLISSEMENT>
+                </ACTIVITE>
+            </HISTORIQUE_SOCIAL>
+        </CITOYEN>
+        <CITOYEN id_citoyen="8">
+            <NOM>Edwige</NOM>
+            <PRENOM>Béatrice</PRENOM>
+            <SEXE>FEMME</SEXE>
+            <AGE>31</AGE>
+            <POIDS>63</POIDS>
+            <TELEPHONE>0327189302</TELEPHONE>
+            <ANTECEDENTS_MECICAUX>
+                <CONSULTATIONS></CONSULTATIONS>
+                <HOSPITALISATIONS>
+                    <HOSPITALISATION id_hospitalisation="13">
+                        <LIEU>Clinique Durieux</LIEU>
+                        <DATE_ENTREE>2019-02-17</DATE_ENTREE>
+                        <DATE_SORTIE>2019-03-17</DATE_SORTIE>
+                        <MOTIF>Peritonite aigue</MOTIF>
+                    </HOSPITALISATION>
+                </HOSPITALISATIONS>
+                <RESULTATS_TESTS_LABORATOIRE>
+                    <RESULTAT id_resultat="12">
+                        <LABORATOIRE>Finup Test</LABORATOIRE>
+                        <PROFESSIONNEL_SANTE professionnel_sante_id="3" />
+                        <POSITIF>true</POSITIF>
+                        <DATE>2021-06-26</DATE>
+                    </RESULTAT>
+                </RESULTATS_TESTS_LABORATOIRE>
+            </ANTECEDENTS_MECICAUX>
+            <STATUT_INFECTION>INFECTE</STATUT_INFECTION>
+            <STATUT_VACCINATION>EN_COURS</STATUT_VACCINATION>
+            <STATUT_IMMUNISATION>NON_IMMUNISE</STATUT_IMMUNISATION>
+            <RELATIONS_SOCIALES>
+                <AMI id_ami="7" />
+                <AMI id_ami="4" />
+            </RELATIONS_SOCIALES>
+            <HISTORIQUE_SOCIAL>
+                <ACTIVITE>
+                    <DATE>2020-12-13</DATE>
+                    <NOM_ACTIVITE>Anniversaire au restaurant</NOM_ACTIVITE>
+                    <NB_PARTICIPANTS>4</NB_PARTICIPANTS>
+                    <LIEU_CLOS>true</LIEU_CLOS>
+                    <PUBLIC>false</PUBLIC>
+                    <REF_ETABLISSEMENT>10</REF_ETABLISSEMENT>
+                </ACTIVITE>
+            </HISTORIQUE_SOCIAL>
+        </CITOYEN>
+        <CITOYEN id_citoyen="9">
+            <NOM>Bivard</NOM>
+            <PRENOM>Carla</PRENOM>
+            <SEXE>FEMME</SEXE>
+            <AGE>51</AGE>
+            <POIDS>69</POIDS>
+            <TELEPHONE>0327129312</TELEPHONE>
+            <ANTECEDENTS_MECICAUX>
+                <CONSULTATIONS>
+                    <CONSULTATION id_consultation="9">
+                        <LIEU>FabLab</LIEU>
+                        <PROFESSIONNEL_SANTE professionnel_sante_id="1" />
+                        <DATE>2021-07-13</DATE>
+                        <MOTIF>Gorge qui pique</MOTIF>
+                    </CONSULTATION>
+                </CONSULTATIONS>
+                <HOSPITALISATIONS>
+                    <HOSPITALISATION id_hospitalisation="11">
+                        <LIEU>Hopital Bonaparte</LIEU>
+                        <DATE_ENTREE>2021-07-16</DATE_ENTREE>
+                        <DATE_SORTIE>2021-07-27</DATE_SORTIE>
+                        <MOTIF>Insufisance reqpiratoire</MOTIF>
+                    </HOSPITALISATION>
+                </HOSPITALISATIONS>
+                <RESULTATS_TESTS_LABORATOIRE>
+                    <RESULTAT id_resultat="11">
+                        <LABORATOIRE>Finup Test</LABORATOIRE>
+                        <PROFESSIONNEL_SANTE professionnel_sante_id="2" />
+                        <POSITIF>true</POSITIF>
+                        <DATE>2021-07-02</DATE>
+                    </RESULTAT>
+                </RESULTATS_TESTS_LABORATOIRE>
+            </ANTECEDENTS_MECICAUX>
+            <STATUT_INFECTION>INFECTE</STATUT_INFECTION>
+            <STATUT_VACCINATION>NON_VACCINE</STATUT_VACCINATION>
+            <STATUT_IMMUNISATION>NON_IMMUNISE</STATUT_IMMUNISATION>
+            <RELATIONS_SOCIALES>
+                <AMI id_ami="7" />
+                <AMI id_ami="4" />
+                <AMI id_ami="8" />
+            </RELATIONS_SOCIALES>
+            <HISTORIQUE_SOCIAL>
+                <ACTIVITE>
+                    <DATE>2020-12-13</DATE>
+                    <NOM_ACTIVITE>Anniversaire au restaurant</NOM_ACTIVITE>
+                    <NB_PARTICIPANTS>4</NB_PARTICIPANTS>
+                    <LIEU_CLOS>true</LIEU_CLOS>
+                    <PUBLIC>false</PUBLIC>
+                    <REF_ETABLISSEMENT>10</REF_ETABLISSEMENT>
+                </ACTIVITE>
+            </HISTORIQUE_SOCIAL>
+        </CITOYEN>
     </LISTE_CITOYEN>
     <LISTE_ETABLISSEMENTS>
         <ETABLISSEMENT id_etablissement="1">
