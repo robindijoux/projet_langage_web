@@ -54,7 +54,7 @@
 			"STATUT_VACCINATION": "NON_VACCINE",
 			"STATUT_IMMUNISATION": "IMMUNISE",
 			"RELATIONS_SOCIALES": [
-				"2","6"
+				"2","6","4","5"
 			],
 			"HISTORIQUE_SOCIAL": [
 				{
@@ -134,11 +134,11 @@
 					}
 				]
 			},
-			"STATUT_INFECTION": "NON_INFECTE",
+			"STATUT_INFECTION": "INFECTE",
 			"STATUT_VACCINATION": "NON_VACCINE",
 			"STATUT_IMMUNISATION": "NON_IMMUNISE",
 			"RELATIONS_SOCIALES": [
-				"1","6"
+				"1","6","5"
 			],
 			"HISTORIQUE_SOCIAL": [
 				{
@@ -215,7 +215,7 @@
 			"STATUT_VACCINATION": "NON_VACCINE",
 			"STATUT_IMMUNISATION": "IMMUNISE",
 			"RELATIONS_SOCIALES": [
-				"2"
+				"2","5"
 			],
 			"HISTORIQUE_SOCIAL": [
 				{	
@@ -276,7 +276,7 @@
 			"STATUT_VACCINATION": "NON_VACCINE",
 			"STATUT_IMMUNISATION": "NON_IMMUNISE",
 			"RELATIONS_SOCIALES": [
-				"2"
+				"2","5"
 			],
 			"HISTORIQUE_SOCIAL": [
 				{
@@ -338,7 +338,7 @@
 			"STATUT_VACCINATION": "VACCINE",
 			"STATUT_IMMUNISATION": "IMMUNISE",
 			"RELATIONS_SOCIALES": [
-				"2"
+				"1","2","3","4","6"
 			],
 			"HISTORIQUE_SOCIAL": [
 				{
@@ -391,7 +391,7 @@
 			"STATUT_VACCINATION": "VACCINE",
 			"STATUT_IMMUNISATION": "IMMUNISE",
 			"RELATIONS_SOCIALES": [
-				"1","2"
+				"1","2","5"
 			],
 			"HISTORIQUE_SOCIAL": [
 				{
