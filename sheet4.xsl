@@ -21,20 +21,18 @@
             border: 1px solid black
             }
             td {
-            padding : 4px;
+            padding : 10px;
             }
         </style>
         <table>
-            <th> <xsl:value-of select="NOM"/>, <xsl:value-of select="PRENOM"/></th><th/>
+            <th> <xsl:value-of select="NOM"/>, <xsl:value-of select="PRENOM"/></th>
             <xsl:for-each select="RELATIONS_SOCIALES/AMI">
-                <xsl:variable name="nb_infecté" select="position()" />
                 <xsl:variable name="id_ami" select="@id_ami"/>
                 <xsl:if test="/BIGVIR/LISTE_CITOYEN/CITOYEN[@id_citoyen=$id_ami]/STATUT_INFECTION = 'INFECTE'">
                     <tr>
                         <td><xsl:value-of select="/BIGVIR/LISTE_CITOYEN/CITOYEN[@id_citoyen=$id_ami]/NOM"/></td>
                         <td><xsl:value-of select="/BIGVIR/LISTE_CITOYEN/CITOYEN[@id_citoyen=$id_ami]/PRENOM"/></td>
                     </tr>
-                    <tr><td>Nombre d'infectés = <xsl:value-of select="$nb_infecté"/></td></tr>
                 </xsl:if>
             </xsl:for-each>
         </table>

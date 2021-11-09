@@ -52,6 +52,8 @@
             <STATUT_IMMUNISATION>IMMUNISE</STATUT_IMMUNISATION>
             <RELATIONS_SOCIALES>
                 <AMI id_ami="2" />
+                <AMI id_ami="5" />
+                <AMI id_ami="4" />
                 <AMI id_ami="6" />
             </RELATIONS_SOCIALES>
             <HISTORIQUE_SOCIAL>
@@ -129,11 +131,12 @@
                     </RESULTAT>
                 </RESULTATS_TESTS_LABORATOIRE>
             </ANTECEDENTS_MECICAUX>
-            <STATUT_INFECTION>NON_INFECTE</STATUT_INFECTION>
+            <STATUT_INFECTION>INFECTE</STATUT_INFECTION>
             <STATUT_VACCINATION>NON_VACCINE</STATUT_VACCINATION>
             <STATUT_IMMUNISATION>NON_IMMUNISE</STATUT_IMMUNISATION>
             <RELATIONS_SOCIALES>
                 <AMI id_ami="1" />
+                <AMI id_ami="5" />
                 <AMI id_ami="6"/>
             </RELATIONS_SOCIALES>
             <HISTORIQUE_SOCIAL>
@@ -207,6 +210,7 @@
             <STATUT_IMMUNISATION>IMMUNISE</STATUT_IMMUNISATION>
             <RELATIONS_SOCIALES>
                 <AMI id_ami="2" />
+                <AMI id_ami="5" />
             </RELATIONS_SOCIALES>
             <HISTORIQUE_SOCIAL>
                 <ACTIVITE>
@@ -263,6 +267,7 @@
             <STATUT_IMMUNISATION>NON_IMMUNISE</STATUT_IMMUNISATION>
             <RELATIONS_SOCIALES>
                 <AMI id_ami="2" />
+                <AMI id_ami="5" />
             </RELATIONS_SOCIALES>
             <HISTORIQUE_SOCIAL>
                 <ACTIVITE>
@@ -321,6 +326,10 @@
             <STATUT_IMMUNISATION>IMMUNISE</STATUT_IMMUNISATION>
             <RELATIONS_SOCIALES>
                 <AMI id_ami="2" />
+                <AMI id_ami="6" />
+                <AMI id_ami="4" />
+                <AMI id_ami="3" />
+                <AMI id_ami="1" />
             </RELATIONS_SOCIALES>
             <HISTORIQUE_SOCIAL>
                 <ACTIVITE>
@@ -374,6 +383,7 @@
             <RELATIONS_SOCIALES>
                 <AMI id_ami="1" />
                 <AMI id_ami="2" />
+                <AMI id_ami="5" />
             </RELATIONS_SOCIALES>
             <HISTORIQUE_SOCIAL>
                 <ACTIVITE>
@@ -397,7 +407,7 @@
     </LISTE_CITOYEN>
     <LISTE_ETABLISSEMENTS>
         <ETABLISSEMENT id_etablissement="1">
-            <NOM_ETABLISSEMENT>Cosyyyyy Bar</NOM_ETABLISSEMENT>
+            <NOM_ETABLISSEMENT>Cosy Bar</NOM_ETABLISSEMENT>
             <ADRESSE>Golfe Juan</ADRESSE>
             <SUPERFICIE>50</SUPERFICIE>
             <NB_PLACES>70</NB_PLACES>
