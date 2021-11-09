@@ -1,21 +1,9 @@
+package javalidator;
+
 import java.io.*;
-import org.w3c.dom.*;
-import org.xml.sax.*;
-import javax.xml.parsers.*;
 import javax.xml.transform.*;
-import javax.xml.transform.dom.*;
 import javax.xml.transform.stream.*;
-
-import java.io.File;
-import java.util.Date;
-import java.util.Map;
-
-import javax.sound.midi.SysexMessage;
-import javax.xml.XMLConstants;
 import javax.xml.transform.stream.StreamSource;
-import javax.xml.validation.Schema;
-import javax.xml.validation.SchemaFactory;
-import javax.xml.validation.Validator;
 import java.nio.file.PathMatcher;
 import java.nio.file.Paths;
 import java.time.Instant;
@@ -25,7 +13,7 @@ import java.nio.file.Files;
 
 public class MyTransformator {
 
-    static String outFilename, xslFilename;
+    static String outFilename, outExtension, xslFilename;
 
     static final String inFilename = "../sample_garrot_dijoux_BigVir2084.xml";
 
@@ -60,7 +48,10 @@ public class MyTransformator {
             // on créé le répertoire des transformations
             Files.createDirectories(Paths.get(transfoDirPath));
 
-            outFilename = transfoDirPath + "transfo_" + Instant.now().getNano()/1000 + ".xml";
+            // on récupère l'extension demandée par le fichier .xsl
+            outExtension = template.getOutputProperties().getProperty("method")!=null ? template.getOutputProperties().getProperty("method") : "xml";
+
+            outFilename = transfoDirPath + "transfo_" + Instant.now().getNano()/1000 + "." + outExtension;
 
             Source source = new StreamSource(new FileInputStream(inFilename));
             Result result = new StreamResult(new FileOutputStream(outFilename));
