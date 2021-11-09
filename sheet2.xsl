@@ -5,7 +5,7 @@
         <head>
             <title>L'ensemble des hospitalisations triées par date</title>
         </head>
-        <body style="text-align : center">
+        <body style="text-align : center; background-color: #d5f4e6">
             <h1>Les <xsl:value-of select="count(LISTE_CITOYEN/CITOYEN/ANTECEDENTS_MECICAUX/HOSPITALISATIONS/HOSPITALISATION)"/> hospitalisations de la base de données triées par date</h1>
             <xsl:apply-templates select="LISTE_CITOYEN/CITOYEN/ANTECEDENTS_MECICAUX/HOSPITALISATIONS/HOSPITALISATION">
                     <xsl:sort select="DATE_ENTREE"/>
@@ -14,7 +14,7 @@
     </xsl:template>
 
     <xsl:template match="HOSPITALISATION">
-        <div style="border : 2px solid black; display : inline-block; padding : 4px">
+        <div style="background-color: #618685; color: white;border : 2px solid white; display : inline-block; padding : 4px; margin: 10px">
             <h2>Hospitalisation n°<xsl:value-of select="@id_hospitalisation"/> : </h2>
             <p><strong>PATIENT : </strong><xsl:value-of select="../../../NOM"/>, <xsl:value-of select="../../../PRENOM"/></p>
             <p><strong>LIEU : </strong><xsl:value-of select="LIEU"/></p>

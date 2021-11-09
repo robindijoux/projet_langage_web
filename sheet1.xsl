@@ -5,7 +5,7 @@
         <head>
             <title>Les consultations de Robin Dijoux</title>
         </head>
-        <body style="text-align : center">
+        <body style="text-align : center; background-color: #d5f4e6">
             <h1>Les <xsl:value-of select="count(LISTE_CITOYEN/CITOYEN[NOM='DIJOUX']/ANTECEDENTS_MECICAUX/CONSULTATIONS/CONSULTATION)"/> consultations de Robin Dijoux</h1>
             <xsl:apply-templates select="LISTE_CITOYEN/CITOYEN[NOM='DIJOUX']"/>
         </body>
@@ -24,7 +24,7 @@
     </xsl:template>
 
     <xsl:template match="CONSULTATION">
-        <div style="border : 2px solid black; display : inline-block; padding : 4px">
+        <div style="background-color: #618685; border : 2px solid white; color:white; display : inline-block; padding : 4px">
             <h2>Consultation n°<xsl:value-of select="@id_consultation"/> : </h2>
             <p><strong>LIEU : </strong><xsl:value-of select="LIEU"/></p>
             <p><strong>DATE : </strong><xsl:value-of select="DATE"/></p>

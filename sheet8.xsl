@@ -3,7 +3,9 @@
     <xsl:output method="xml" encoding="UTF-8"/>
     <xsl:template match="BIGVIR">
         <HISTORIQUES_RESULTATS_BIGVIR>
-            <xsl:apply-templates select="LISTE_CITOYEN/CITOYEN/ANTECEDENTS_MECICAUX/RESULTATS_TESTS_LABORATOIRE/RESULTAT"/>
+            <xsl:apply-templates select="LISTE_CITOYEN/CITOYEN/ANTECEDENTS_MECICAUX/RESULTATS_TESTS_LABORATOIRE/RESULTAT">
+                <xsl:sort select="DATE"/>
+            </xsl:apply-templates>
         </HISTORIQUES_RESULTATS_BIGVIR>
     </xsl:template>
 

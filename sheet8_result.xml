@@ -1,53 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?><HISTORIQUES_RESULTATS_BIGVIR><RESULTAT id_resultat="1"><PATIENT>GARROT, Thibault</PATIENT><ID_PATIENT>1</ID_PATIENT>
+<?xml version="1.0" encoding="UTF-8"?><HISTORIQUES_RESULTATS_BIGVIR><RESULTAT id_resultat="11"><PATIENT>POUCHU, Julie</PATIENT><ID_PATIENT>4</ID_PATIENT>
                         <LABORATOIRE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CERBAILLANCE</LABORATOIRE>
                         <PROFESSIONNEL_SANTE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" professionnel_sante_id="1"/>
-                        <POSITIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">false</POSITIF>
-                        <DATE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2021-01-20</DATE>
-                    </RESULTAT><RESULTAT id_resultat="2"><PATIENT>GARROT, Thibault</PATIENT><ID_PATIENT>1</ID_PATIENT>
-                        <LABORATOIRE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">BIOESTEREL</LABORATOIRE>
-                        <PROFESSIONNEL_SANTE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" professionnel_sante_id="3"/>
-                        <POSITIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">false</POSITIF>
-                        <DATE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2021-04-23</DATE>
-                    </RESULTAT><RESULTAT id_resultat="3"><PATIENT>GARROT, Thibault</PATIENT><ID_PATIENT>1</ID_PATIENT>
-                        <LABORATOIRE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">BIOESTEREL</LABORATOIRE>
-                        <PROFESSIONNEL_SANTE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" professionnel_sante_id="3"/>
-                        <POSITIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">false</POSITIF>
-                        <DATE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2021-04-30</DATE>
-                    </RESULTAT><RESULTAT id_resultat="4"><PATIENT>GARROT, Thibault</PATIENT><ID_PATIENT>1</ID_PATIENT>
-                        <LABORATOIRE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">BIOESTEREL</LABORATOIRE>
-                        <PROFESSIONNEL_SANTE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" professionnel_sante_id="3"/>
                         <POSITIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">true</POSITIF>
-                        <DATE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2021-07-21</DATE>
-                    </RESULTAT><RESULTAT id_resultat="5"><PATIENT>GARROT, Thibault</PATIENT><ID_PATIENT>1</ID_PATIENT>
-                        <LABORATOIRE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CENTRE DE PRELEVEMENT ANTIBES</LABORATOIRE>
-                        <PROFESSIONNEL_SANTE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" professionnel_sante_id="2"/>
-                        <POSITIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">true</POSITIF>
-                        <DATE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2021-07-28</DATE>
+                        <DATE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2020-11-20</DATE>
                     </RESULTAT><RESULTAT id_resultat="7"><PATIENT>DIJOUX, Robin</PATIENT><ID_PATIENT>2</ID_PATIENT>
                         <LABORATOIRE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SUPERLAB</LABORATOIRE>
                         <PROFESSIONNEL_SANTE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" professionnel_sante_id="1"/>
                         <POSITIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">false</POSITIF>
                         <DATE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2021-01-12</DATE>
-                    </RESULTAT><RESULTAT id_resultat="8"><PATIENT>DIJOUX, Robin</PATIENT><ID_PATIENT>2</ID_PATIENT>
-                        <LABORATOIRE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CENTRE DE PRELEVEMENT ANTIBES</LABORATOIRE>
-                        <PROFESSIONNEL_SANTE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" professionnel_sante_id="2"/>
+                    </RESULTAT><RESULTAT id_resultat="1"><PATIENT>GARROT, Thibault</PATIENT><ID_PATIENT>1</ID_PATIENT>
+                        <LABORATOIRE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CERBAILLANCE</LABORATOIRE>
+                        <PROFESSIONNEL_SANTE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" professionnel_sante_id="1"/>
                         <POSITIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">false</POSITIF>
-                        <DATE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2021-08-02</DATE>
-                    </RESULTAT><RESULTAT id_resultat="9"><PATIENT>DIJOUX, Robin</PATIENT><ID_PATIENT>2</ID_PATIENT>
-                    <LABORATOIRE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CENTRE DE PRELEVEMENT ANTIBES</LABORATOIRE>
-                    <PROFESSIONNEL_SANTE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" professionnel_sante_id="2"/>
-                    <POSITIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">true</POSITIF>
-                    <DATE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2021-10-17</DATE>
+                        <DATE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2021-01-20</DATE>
                     </RESULTAT><RESULTAT id_resultat="10"><PATIENT>BARRIER, Jean</PATIENT><ID_PATIENT>3</ID_PATIENT>
                         <LABORATOIRE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CERBAILLANCE</LABORATOIRE>
                         <PROFESSIONNEL_SANTE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" professionnel_sante_id="2"/>
                         <POSITIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">true</POSITIF>
                         <DATE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2021-02-28</DATE>
-                    </RESULTAT><RESULTAT id_resultat="11"><PATIENT>POUCHU, Julie</PATIENT><ID_PATIENT>4</ID_PATIENT>
-                        <LABORATOIRE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CERBAILLANCE</LABORATOIRE>
-                        <PROFESSIONNEL_SANTE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" professionnel_sante_id="1"/>
-                        <POSITIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">true</POSITIF>
-                        <DATE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2020-11-20</DATE>
                     </RESULTAT><RESULTAT id_resultat="12"><PATIENT>POUCHU, Julie</PATIENT><ID_PATIENT>4</ID_PATIENT>
                         <LABORATOIRE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CERBAILLANCE</LABORATOIRE>
                         <PROFESSIONNEL_SANTE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" professionnel_sante_id="1"/>
@@ -58,6 +28,16 @@
                         <PROFESSIONNEL_SANTE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" professionnel_sante_id="1"/>
                         <POSITIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">false</POSITIF>
                         <DATE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2021-04-01</DATE>
+                    </RESULTAT><RESULTAT id_resultat="2"><PATIENT>GARROT, Thibault</PATIENT><ID_PATIENT>1</ID_PATIENT>
+                        <LABORATOIRE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">BIOESTEREL</LABORATOIRE>
+                        <PROFESSIONNEL_SANTE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" professionnel_sante_id="3"/>
+                        <POSITIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">false</POSITIF>
+                        <DATE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2021-04-23</DATE>
+                    </RESULTAT><RESULTAT id_resultat="3"><PATIENT>GARROT, Thibault</PATIENT><ID_PATIENT>1</ID_PATIENT>
+                        <LABORATOIRE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">BIOESTEREL</LABORATOIRE>
+                        <PROFESSIONNEL_SANTE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" professionnel_sante_id="3"/>
+                        <POSITIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">false</POSITIF>
+                        <DATE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2021-04-30</DATE>
                     </RESULTAT><RESULTAT id_resultat="14"><PATIENT>POUCHU, Julie</PATIENT><ID_PATIENT>4</ID_PATIENT>
                         <LABORATOIRE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CERBAILLANCE</LABORATOIRE>
                         <PROFESSIONNEL_SANTE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" professionnel_sante_id="1"/>
@@ -68,11 +48,6 @@
                         <PROFESSIONNEL_SANTE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" professionnel_sante_id="1"/>
                         <POSITIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">false</POSITIF>
                         <DATE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2021-05-08</DATE>
-                    </RESULTAT><RESULTAT id_resultat="16"><PATIENT>MARICHON, Marie</PATIENT><ID_PATIENT>5</ID_PATIENT>
-                        <LABORATOIRE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">DOCTOPHARMA</LABORATOIRE>
-                        <PROFESSIONNEL_SANTE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" professionnel_sante_id="3"/>
-                        <POSITIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">false</POSITIF>
-                        <DATE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2021-11-03</DATE>
                     </RESULTAT><RESULTAT id_resultat="17"><PATIENT>CAYLA, Arnaud</PATIENT><ID_PATIENT>6</ID_PATIENT>
                         <LABORATOIRE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Laboratoire international d'Antibes</LABORATOIRE>
                         <PROFESSIONNEL_SANTE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" professionnel_sante_id="3"/>
@@ -93,4 +68,29 @@
                         <PROFESSIONNEL_SANTE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" professionnel_sante_id="2"/>
                         <POSITIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">true</POSITIF>
                         <DATE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2021-07-02</DATE>
+                    </RESULTAT><RESULTAT id_resultat="4"><PATIENT>GARROT, Thibault</PATIENT><ID_PATIENT>1</ID_PATIENT>
+                        <LABORATOIRE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">BIOESTEREL</LABORATOIRE>
+                        <PROFESSIONNEL_SANTE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" professionnel_sante_id="3"/>
+                        <POSITIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">true</POSITIF>
+                        <DATE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2021-07-21</DATE>
+                    </RESULTAT><RESULTAT id_resultat="5"><PATIENT>GARROT, Thibault</PATIENT><ID_PATIENT>1</ID_PATIENT>
+                        <LABORATOIRE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CENTRE DE PRELEVEMENT ANTIBES</LABORATOIRE>
+                        <PROFESSIONNEL_SANTE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" professionnel_sante_id="2"/>
+                        <POSITIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">true</POSITIF>
+                        <DATE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2021-07-28</DATE>
+                    </RESULTAT><RESULTAT id_resultat="8"><PATIENT>DIJOUX, Robin</PATIENT><ID_PATIENT>2</ID_PATIENT>
+                        <LABORATOIRE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CENTRE DE PRELEVEMENT ANTIBES</LABORATOIRE>
+                        <PROFESSIONNEL_SANTE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" professionnel_sante_id="2"/>
+                        <POSITIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">false</POSITIF>
+                        <DATE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2021-08-02</DATE>
+                    </RESULTAT><RESULTAT id_resultat="9"><PATIENT>DIJOUX, Robin</PATIENT><ID_PATIENT>2</ID_PATIENT>
+                    <LABORATOIRE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">CENTRE DE PRELEVEMENT ANTIBES</LABORATOIRE>
+                    <PROFESSIONNEL_SANTE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" professionnel_sante_id="2"/>
+                    <POSITIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">true</POSITIF>
+                    <DATE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2021-10-17</DATE>
+                    </RESULTAT><RESULTAT id_resultat="16"><PATIENT>MARICHON, Marie</PATIENT><ID_PATIENT>5</ID_PATIENT>
+                        <LABORATOIRE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">DOCTOPHARMA</LABORATOIRE>
+                        <PROFESSIONNEL_SANTE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" professionnel_sante_id="3"/>
+                        <POSITIF xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">false</POSITIF>
+                        <DATE xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">2021-11-03</DATE>
                     </RESULTAT></HISTORIQUES_RESULTATS_BIGVIR>

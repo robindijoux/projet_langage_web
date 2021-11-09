@@ -5,7 +5,7 @@
         <head>
             <title>Toutes les personnes qui ont eu une activité avec plus de 10 personnes dans un lieu clos et qui ont été testées positives</title>
         </head>
-        <body style="text-align : center">
+        <body style="text-align : center; background-color: #d5f4e6">
             <h1>Les <xsl:value-of select="count(LISTE_CITOYEN/CITOYEN[descendant::ACTIVITE[NB_PARTICIPANTS>10 and LIEU_CLOS='true'] and descendant::RESULTAT[POSITIF='true']])"/> personnes qui ont eu une activité avec plus de 10 personnes dans un lieu clos et qui ont été testées positives.</h1>
             <xsl:apply-templates select="LISTE_CITOYEN/CITOYEN[descendant::ACTIVITE[NB_PARTICIPANTS>10 and LIEU_CLOS='true'] and descendant::RESULTAT[POSITIF='true']]">
             </xsl:apply-templates>
@@ -13,7 +13,7 @@
     </xsl:template>
 
     <xsl:template match="CITOYEN">
-        <div style="border : 2px solid black; display : inline-block; padding : 4px">
+        <div style="border : 2px solid white; display : inline-block; padding : 4px; background-color: #618685; color: white">
             <h2><strong><xsl:value-of select="NOM"/>, <xsl:value-of select="PRENOM"/></strong></h2>
             <span> à été(e) testé(e) <xsl:apply-templates select="descendant::RESULTAT[POSITIF='true'][1]"/></span>
             <br/>
