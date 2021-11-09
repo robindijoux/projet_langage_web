@@ -13,8 +13,8 @@ import java.nio.file.FileSystems;
 
 public class MyValidator {
 
-    static final String DEFAULT_XSD_PATH = "../../schema_garrot_dijoux_BigVir2084.xsd";
-    static final String DEFAULT_XML_PATH = "../../sample_garrot_dijoux_BigVir2084.xml";
+    static final String DEFAULT_XSD_PATH = "../schema_garrot_dijoux_BigVir2084.xsd";
+    static final String DEFAULT_XML_PATH = "../sample_garrot_dijoux_BigVir2084.xml";
 
     static enum Options {
         XSD, XML
