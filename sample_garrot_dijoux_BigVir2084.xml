@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xml" href="sheet3.xsl"?>
+<?xml-stylesheet type="text/xml" href="xsl/sheet3.xsl"?>
 <BIGVIR xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="schema_garrot_dijoux_BigVir2084.xsd">
     <LISTE_CITOYEN>
         <CITOYEN id_citoyen="1">

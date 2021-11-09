@@ -17,7 +17,7 @@ public class MyTransformator {
 
     static final String inFilename = "../sample_garrot_dijoux_BigVir2084.xml";
 
-    static final String transfoDirPath = "transfos/";
+    static final String transfoDirPath = "./transfos/";
 
     /**
      * Utilisé pour vérifier l'extension du fichiers xsl passés en paramètres.
@@ -49,7 +49,7 @@ public class MyTransformator {
             // on récupère l'extension demandée par le fichier .xsl
             outExtension = template.getOutputProperties().getProperty("method")!=null ? template.getOutputProperties().getProperty("method") : "xml";
 
-            outFilename = transfoDirPath + "transfo_" + Instant.now().getNano()/1000 + "." + outExtension;
+            outFilename = transfoDirPath + "transfo_" + Instant.now().toEpochMilli()/10 + "." + outExtension;
 
             Source source = new StreamSource(new FileInputStream(inFilename));
             Result result = new StreamResult(new FileOutputStream(outFilename));
