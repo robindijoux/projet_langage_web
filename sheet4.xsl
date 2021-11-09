@@ -5,7 +5,7 @@
         <head>
             <title>Liste des amis infectés par citoyen</title>
         </head>
-        <body>
+        <body style="text-align: center; background-color: #d5f4e6;">
             <h1>Liste des amis infectés par citoyen</h1>
             <xsl:apply-templates select="LISTE_CITOYEN/CITOYEN"/>
         </body>
@@ -15,17 +15,22 @@
         <style type="text/css">
             table {
             border-collapse: collapse;
-            margin : 10px;
+            margin : 0 auto;
+            margin-bottom: 10px;
+            width : 400px;
+            height : 100px;
+            background-color: #618685;
+            color: white;
             }
             th, td {
-            border: 1px solid black
+            border: 2px solid white
             }
             td {
             padding : 10px;
             }
         </style>
         <table>
-            <th> <xsl:value-of select="NOM"/>, <xsl:value-of select="PRENOM"/></th>
+            <th> <xsl:value-of select="NOM"/>, <xsl:value-of select="PRENOM"/></th><th></th>
             <xsl:for-each select="RELATIONS_SOCIALES/AMI">
                 <xsl:variable name="id_ami" select="@id_ami"/>
                 <xsl:if test="/BIGVIR/LISTE_CITOYEN/CITOYEN[@id_citoyen=$id_ami]/STATUT_INFECTION = 'INFECTE'">

@@ -5,7 +5,7 @@
         <head>
             <title>Tous les citoyens non vaccinés qui ont le BIGVIR, triés par age croissant</title>
         </head>
-        <body style="text-align : center">
+        <body style="text-align : center; background-color: #d5f4e6">
             <h1>Les <xsl:value-of select="count(LISTE_CITOYEN/CITOYEN[STATUT_VACCINATION='NON_VACCINE' and STATUT_INFECTION='INFECTE'])"/> citoyens non vaccinés qui ont le BIGVIR, triés par age croissant</h1>
             <div style="display:flex; justify-content:center;">
                 <xsl:apply-templates select="LISTE_CITOYEN/CITOYEN[STATUT_VACCINATION='NON_VACCINE' and STATUT_INFECTION='INFECTE']">
@@ -16,7 +16,7 @@
     </xsl:template>
 
     <xsl:template match="CITOYEN">
-        <div style="margin:10px; padding:10px; border:solid;">
+        <div style="margin:10px; padding:10px; color: white; border: 2px solid white; background-color: #618685;">
             <h2><strong>Age : </strong> <xsl:value-of select="AGE"/> ans</h2>
             <p><strong>Nom : </strong><xsl:value-of select="NOM"/>  </p>
             <p><strong>Prénom : </strong><xsl:value-of select="PRENOM"/></p>
