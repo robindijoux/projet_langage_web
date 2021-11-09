@@ -17,8 +17,6 @@ public class MyTransformator {
 
     static final String inFilename = "../sample_garrot_dijoux_BigVir2084.xml";
 
-    static int nbTransfo = 1;
-
     static final String transfoDirPath = "transfos/";
 
     /**
@@ -57,6 +55,7 @@ public class MyTransformator {
             Result result = new StreamResult(new FileOutputStream(outFilename));
 
             xformer.transform(source, result);
+            System.out.println("Fichier "+ outFilename + " créé avec succès.");
         } catch (Exception e){
             e.printStackTrace();
             System.exit(1);
