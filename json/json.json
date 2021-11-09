@@ -1,0 +1,530 @@
+{
+	"BIGVIR": {
+		"LISTE_CITOYENS": [
+			{
+				"NOM": "GARROT",
+				"PRENOM": "Thibault",
+				"SEXE": "HOMME",
+				"AGE": "21",
+				"POIDS": "75",
+				"TELEPHONE": "0652738470",
+				"ANTECEDENTS_MECICAUX": {
+					"CONSULTATIONS": [
+						{
+							"LIEU": "Fréjus",
+							"_professionnel_sante_id": "1",
+							"DATE": "2021-08-25",
+							"MOTIF": "Toux grasse",
+							"_id_consultation": "1"
+						}
+					],
+					"HOSPITALISATIONS": [
+						{
+							"LIEU": "Fréjus",
+							"DATE_ENTREE": "2021-01-28",
+							"DATE_SORTIE": "2021-02-04",
+							"MOTIF": "Fracture ouverte de l'épaule",
+							"_id_hospitalisation": "1"
+						},
+						{
+							"LIEU": "Fréjus",
+							"DATE_ENTREE": "2021-03-27",
+							"DATE_SORTIE": "2021-03-28",
+							"MOTIF": "Pneumothorax",
+							"_id_hospitalisation": "2"
+						},
+						{
+							"LIEU": "Fréjus",
+							"DATE_ENTREE": "2021-08-28",
+							"DATE_SORTIE": "2021-08-30",
+							"MOTIF": "Insuffisance respiratoire",
+							"_id_hospitalisation": "3"
+						}
+					],
+					"RESULTATS_TESTS_LABORATOIRE": [
+						{
+							"LABORATOIRE": "CERBAILLANCE",
+							"_professionnel_sante_id": "1",
+							"POSITIF": "true",
+							"DATE": "2021-08-29",
+							"_id_resultat": "1"
+						}
+					]
+				},
+				"STATUT_INFECTION": "INFECTE",
+				"STATUT_VACCINATION": "NON_VACCINE",
+				"STATUT_IMMUNISATION": "IMMUNISE",
+				"RELATIONS_SOCIALES": [
+					"2","6"
+				],
+				"HISTORIQUE_SOCIAL": [
+					{
+						"DATE": "2021-02-28",
+						"NOM_ACTIVITE": "Restaurant entre amis",
+						"NB_PARTICIPANTS": "4",
+						"LIEU_CLOS": "true",
+						"PUBLIC": "true",
+						"REF_ETABLISSEMENT": "1"
+					},
+					{
+						"DATE": "2021-10-30",
+						"NOM_ACTIVITE": "MNM's",
+						"NB_PARTICIPANTS": "800",
+						"LIEU_CLOS": "true",
+						"PUBLIC": "true",
+						"REF_ETABLISSEMENT": "4"
+					},
+					{
+						"DATE": "2021-11-01",
+						"NOM_ACTIVITE": "Surf",
+						"NB_PARTICIPANTS": "1",
+						"LIEU_CLOS": "false",
+						"PUBLIC": "true",
+						"REF_LIEU": "3"
+					},
+					{
+						"DATE": "2021-11-06",
+						"NOM_ACTIVITE": "Surf",
+						"NB_PARTICIPANTS": "2",
+						"LIEU_CLOS": "false",
+						"PUBLIC": "true",
+						"REF_LIEU": "3"
+					}
+				],
+				"_id_citoyen": "1"
+			},
+			{
+				"NOM": "DIJOUX",
+				"PRENOM": "Robin",
+				"SEXE": "HOMME",
+				"AGE": "21",
+				"POIDS": "80",
+				"TELEPHONE": "0652738570",
+				"ANTECEDENTS_MECICAUX": {
+					"CONSULTATIONS": [
+						{
+							"LIEU": "Cagnes-sur-mer",
+							"_professionnel_sante_id": "3",
+							"DATE": "2020-06-25",
+							"MOTIF": "Douleur dos",
+							"_id_consultation": "2"
+						},
+						{
+							"LIEU": "Cagnes-sur-mer",
+							"_professionnel_sante_id": "1",
+							"DATE": "2021-08-20",
+							"MOTIF": "Douleur dos",
+							"_id_consultation": "7"
+						},
+						{
+							"LIEU": "Cagnes-sur-mer",
+							"_professionnel_sante_id": "1",
+							"DATE": "2021-07-20",
+							"MOTIF": "Douleur dos",
+							"_id_consultation": "6"
+						}
+					],
+					"HOSPITALISATIONS": [],
+					"RESULTATS_TESTS_LABORATOIRE": [
+						{
+							"LABORATOIRE": "SUPERLAB",
+							"_professionnel_sante_id": "2",
+							"POSITIF": "false",
+							"DATE": "2021-01-12",
+							"_id_resultat": "2"
+						}
+					]
+				},
+				"STATUT_INFECTION": "NON_INFECTE",
+				"STATUT_VACCINATION": "NON_VACCINE",
+				"STATUT_IMMUNISATION": "NON_IMMUNISE",
+				"RELATIONS_SOCIALES": [
+					"1","6"
+				],
+				"HISTORIQUE_SOCIAL": [
+					{
+						"DATE": "2021-01-13",
+						"NOM_ACTIVITE": "Cinéma",
+						"NB_PARTICIPANTS": "2",
+						"LIEU_CLOS": "true",
+						"PUBLIC": "true",
+						"REF_ETABLISSEMENT": "1"
+					},
+					{
+						"DATE": "2021-02-28",
+						"NOM_ACTIVITE": "Restaurant entre amis",
+						"NB_PARTICIPANTS": "4",
+						"LIEU_CLOS": "true",
+						"PUBLIC": "true",
+						"REF_ETABLISSEMENT": "1"
+					},
+					{
+						"DATE": "2021-11-06",
+						"NOM_ACTIVITE": "Surf",
+						"NB_PARTICIPANTS": "2",
+						"LIEU_CLOS": "false",
+						"PUBLIC": "true",
+						"REF_LIEU": "3"
+					}
+				],
+				"_id_citoyen": "2"
+			},
+			{
+				"NOM": "BARRIER",
+				"PRENOM": "Jean",
+				"SEXE": "HOMME",
+				"AGE": "44",
+				"POIDS": "85",
+				"TELEPHONE": "0651743570",
+				"ANTECEDENTS_MECICAUX": {
+					"CONSULTATIONS": [
+						{
+							"LIEU": "Antibes",
+							"_professionnel_sante_id": "1",
+							"DATE": "2021-08-25",
+							"MOTIF": "Maux de tête",
+							"_id_consultation": "3"
+						}
+					],
+					"HOSPITALISATIONS": [
+						{
+							"LIEU": "Biot",
+							"DATE_ENTREE": "2021-03-27",
+							"DATE_SORTIE": "2021-04-13",
+							"MOTIF": "Insuffisance respiratoire",
+							"_id_hospitalisation": "4"
+						},
+						{
+							"LIEU": "Villeneuve Loubet",
+							"DATE_ENTREE": "2021-05-28",
+							"DATE_SORTIE": "2021-05-30",
+							"MOTIF": "Insuffisance respiratoire",
+							"_id_hospitalisation": "5"
+						}
+					],
+					"RESULTATS_TESTS_LABORATOIRE": [
+						{
+							"LABORATOIRE": "CERBAILLANCE",
+							"_professionnel_sante_id": "2",
+							"POSITIF": "true",
+							"DATE": "2021-02-28",
+							"_id_resultat": "3"
+						}
+					]
+				},
+				"STATUT_INFECTION": "INFECTE",
+				"STATUT_VACCINATION": "NON_VACCINE",
+				"STATUT_IMMUNISATION": "IMMUNISE",
+				"RELATIONS_SOCIALES": [
+					"2"
+				],
+				"HISTORIQUE_SOCIAL": [
+					{	
+						"DATE": "2021-02-28",
+						"NOM_ACTIVITE": "Restaurant entre amis",
+						"NB_PARTICIPANTS": "4",
+						"LIEU_CLOS": "true",
+						"PUBLIC": "true",
+						"REF_ETABLISSEMENT": "1"
+					}
+				],
+				"_id_citoyen": "3"
+			},
+			{
+				"NOM": "POUCHU",
+				"PRENOM": "Julie",
+				"SEXE": "FEMME",
+				"AGE": "21",
+				"POIDS": "67",
+				"TELEPHONE": "0757023570",
+				"ANTECEDENTS_MECICAUX": {
+					"CONSULTATIONS": [
+						{
+							"LIEU": "Antibes",
+							"_professionnel_sante_id": "1",
+							"DATE": "2021-08-25",
+							"MOTIF": "Toux grasse",
+							"_id_consultation": "5"
+						}
+					],
+					"HOSPITALISATIONS": [
+						{
+							"LIEU": "Biot",
+							"DATE_ENTREE": "2021-03-27",
+							"DATE_SORTIE": "2021-04-13",
+							"MOTIF": "Insuffisance respiratoire",
+							"_id_hospitalisation": "6"
+						},
+						{
+							"LIEU": "Villeneuve Loubet",
+							"DATE_ENTREE": "2021-05-28",
+							"DATE_SORTIE": "2021-05-30",
+							"MOTIF": "Insuffisance respiratoire",
+							"_id_hospitalisation": "7"
+						}
+					],
+					"RESULTATS_TESTS_LABORATOIRE": [
+						{
+							"LABORATOIRE": "CERBAILLANCE",
+							"_professionnel_sante_id": "1",
+							"POSITIF": "true",
+							"DATE": "2021-02-28",
+							"_id_resultat": "4"
+						}
+					]
+				},
+				"STATUT_INFECTION": "INFECTE",
+				"STATUT_VACCINATION": "NON_VACCINE",
+				"STATUT_IMMUNISATION": "NON_IMMUNISE",
+				"RELATIONS_SOCIALES": [
+					"2"
+				],
+				"HISTORIQUE_SOCIAL": [
+					{
+						"DATE": "2021-02-28",
+						"NOM_ACTIVITE": "Restaurant en amoureux",
+						"NB_PARTICIPANTS": "2",
+						"LIEU_CLOS": "true",
+						"PUBLIC": "true",
+						"REF_ETABLISSEMENT": "2"
+					},
+					{
+						"DATE": "2021-02-28",
+						"NOM_ACTIVITE": "Cinéma",
+						"NB_PARTICIPANTS": "23",
+						"LIEU_CLOS": "true",
+						"PUBLIC": "true",
+						"REF_ETABLISSEMENT": "8"
+					}
+				],
+				"_id_citoyen": "4"
+			},
+			{
+				"NOM": "MARICHON",
+				"PRENOM": "Marie",
+				"SEXE": "FEMME",
+				"AGE": "32",
+				"POIDS": "70",
+				"TELEPHONE": "0600145570",
+				"ANTECEDENTS_MECICAUX": {
+					"CONSULTATIONS": [
+						{
+							"LIEU": "Nice",
+							"_professionnel_sante_id": "1",
+							"DATE": "2021-08-25",
+							"MOTIF": "Mal de gorges",
+							"_id_consultation": "8"
+						}
+					],
+					"HOSPITALISATIONS": [
+						{
+							"LIEU": "Nice",
+							"DATE_ENTREE": "2021-03-27",
+							"DATE_SORTIE": "2021-04-13",
+							"MOTIF": "Insuffisance respiratoire",
+							"_id_hospitalisation": "8"
+						}
+					],
+					"RESULTATS_TESTS_LABORATOIRE": [
+						{
+							"LABORATOIRE": "DOCTOPHARMA",
+							"_professionnel_sante_id": "3",
+							"POSITIF": "false",
+							"DATE": "2020-12-30",
+							"_id_resultat": "5"
+						}
+					]
+				},
+				"STATUT_INFECTION": "NON_INFECTE",
+				"STATUT_VACCINATION": "VACCINE",
+				"STATUT_IMMUNISATION": "IMMUNISE",
+				"RELATIONS_SOCIALES": [
+					"2"
+				],
+				"HISTORIQUE_SOCIAL": [
+					{
+						"DATE": "2020-08-20",
+						"NOM_ACTIVITE": "Festival Crossover",
+						"NB_PARTICIPANTS": "3",
+						"LIEU_CLOS": "false",
+						"PUBLIC": "true",
+						"REF_LIEU": "1"
+					},
+					{
+						"DATE": "2021-11-01",
+						"NOM_ACTIVITE": "Halloween Party",
+						"NB_PARTICIPANTS": "6",
+						"LIEU_CLOS": "true",
+						"PUBLIC": "true",
+						"REF_ETABLISSEMENT": "3"
+					}
+				],
+				"_id_citoyen": "5"
+			},
+			{
+				"NOM": "CAYLA",
+				"PRENOM": "Arnaud",
+				"SEXE": "HOMME",
+				"AGE": "21",
+				"POIDS": "89",
+				"TELEPHONE": "0743638590",
+				"ANTECEDENTS_MECICAUX": {
+					"CONSULTATIONS": [],
+					"HOSPITALISATIONS": [],
+					"RESULTATS_TESTS_LABORATOIRE": [
+						{
+							"LABORATOIRE": "Laboratoire international d'Antibes",
+							"_professionnel_sante_id": "3",
+							"POSITIF": "false",
+							"DATE": "2021-05-28",
+							"_id_resultat": "6"
+						},
+						{
+							"LABORATOIRE": "Laboratoire international d'Antibes",
+							"_professionnel_sante_id": "1",
+							"POSITIF": "false",
+							"DATE": "2021-06-05",
+							"_id_resultat": "7"
+						}
+					]
+				},
+				"STATUT_INFECTION": "NON_INFECTE",
+				"STATUT_VACCINATION": "VACCINE",
+				"STATUT_IMMUNISATION": "IMMUNISE",
+				"RELATIONS_SOCIALES": [
+					"1","2"
+				],
+				"HISTORIQUE_SOCIAL": [
+					{
+						"DATE": "2021-02-28",
+						"NOM_ACTIVITE": "Restaurant entre amis",
+						"NB_PARTICIPANTS": "4",
+						"LIEU_CLOS": "true",
+						"PUBLIC": "true",
+						"REF_ETABLISSEMENT": "1"
+					},
+					{
+						"DATE": "2021-10-30",
+						"NOM_ACTIVITE": "MNM's",
+						"NB_PARTICIPANTS": "800",
+						"LIEU_CLOS": "true",
+						"PUBLIC": "true",
+						"REF_ETABLISSEMENT": "4"
+					}
+				],
+				"_id_citoyen": "6"
+			}
+		],
+		"LISTE_ETABLISSEMENTS": [
+			{
+				"NOM_ETABLISSEMENT": "Cosyyyyy Bar",
+				"ADRESSE": "Golfe Juan",
+				"SUPERFICIE": "50",
+				"NB_PLACES": "70",
+				"_id_etablissement": "1"
+			},
+			{
+				"NOM_ETABLISSEMENT": "MK",
+				"ADRESSE": "Biot",
+				"SUPERFICIE": "55",
+				"NB_PLACES": "65",
+				"_id_etablissement": "2"
+			},
+			{
+				"NOM_ETABLISSEMENT": "Palais Nikaïa",
+				"ADRESSE": "Nice",
+				"SUPERFICIE": "9500",
+				"NB_PLACES": "9000",
+				"_id_etablissement": "3"
+			},
+			{
+				"NOM_ETABLISSEMENT": "Florida Palace",
+				"ADRESSE": "Nice",
+				"SUPERFICIE": "1500",
+				"NB_PLACES": "800",
+				"_id_etablissement": "4"
+			},
+			{
+				"NOM_ETABLISSEMENT": "L'assiette Nature",
+				"ADRESSE": "Sophia",
+				"SUPERFICIE": "70",
+				"NB_PLACES": "47",
+				"_id_etablissement": "5"
+			},
+			{
+				"NOM_ETABLISSEMENT": "Green 2.0",
+				"ADRESSE": "Cannes",
+				"SUPERFICIE": "220",
+				"NB_PLACES": "90",
+				"_id_etablissement": "6"
+			},
+			{
+				"NOM_ETABLISSEMENT": "B'nB Hotel",
+				"ADRESSE": "Menton",
+				"SUPERFICIE": "500",
+				"NB_PLACES": "300",
+				"_id_etablissement": "7"
+			},
+			{
+				"NOM_ETABLISSEMENT": "Le cinéma Casino",
+				"ADRESSE": "Antibes",
+				"SUPERFICIE": "80",
+				"NB_PLACES": "50",
+				"_id_etablissement": "8"
+			},
+			{
+				"NOM_ETABLISSEMENT": "Cinéma CGR",
+				"ADRESSE": "Cagnes-sur-Mer",
+				"SUPERFICIE": "350",
+				"NB_PLACES": "270",
+				"_id_etablissement": "9"
+			},
+			{
+				"NOM_ETABLISSEMENT": "Tiffany's Kitchen",
+				"ADRESSE": "Vallauris",
+				"SUPERFICIE": "700",
+				"NB_PLACES": "430",
+				"_id_etablissement": "10"
+			}
+		],
+		"LISTE_LIEUX": [
+			{
+				"NOM_LIEU": "Théatre de verdure",
+				"ADRESSE": "45 Avenue de la Majorette",
+				"CODE_POSTAL": "06000",
+				"_id_lieu": "1"
+			},
+			{
+				"NOM_LIEU": "Coulée Verte",
+				"ADRESSE": "Avenue de la Majorette",
+				"CODE_POSTAL": "06000",
+				"_id_lieu": "2"
+			},
+			{
+				"NOM_LIEU": "Les escalamandes",
+				"ADRESSE": "Plage de Saint-Aygulf",
+				"CODE_POSTAL": "83370",
+				"_id_lieu": "3"
+			}
+		],
+		"LISTE_MEDECINS": [
+			{
+				"SPECIALITE": "Médecin généraliste",
+				"_id_medecin": "1",
+				"_id_citoyen": "3"
+			},
+			{
+				"SPECIALITE": "Chirurgien",
+				"_id_medecin": "2",
+				"_id_citoyen": "4"
+			},
+			{
+				"SPECIALITE": "Médecin généraliste",
+				"_id_medecin": "3",
+				"_id_citoyen": "5"
+			}
+		],
+		"_xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+		"_xsi:noNamespaceSchemaLocation": "schema_garrot_dijoux_BigVir2084.xsd"
+	}
+}
