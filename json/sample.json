@@ -44,9 +44,37 @@
 					{
 						"LABORATOIRE": "CERBAILLANCE",
 						"_professionnel_sante_id": "1",
-						"POSITIF": "true",
-						"DATE": "2021-08-29",
+						"POSITIF": "false",
+						"DATE": "2021-01-20",
 						"_id_resultat": "1"
+					},
+					{
+						"LABORATOIRE": "BIOESTEREL",
+						"_professionnel_sante_id": "3",
+						"POSITIF": "false",
+						"DATE": "2021-04-23",
+						"_id_resultat": "2"
+					},
+					{
+						"LABORATOIRE": "BIOESTEREL",
+						"_professionnel_sante_id": "3",
+						"POSITIF": "false",
+						"DATE": "2021-04-30",
+						"_id_resultat": "3"
+					},
+					{
+						"LABORATOIRE": "BIOESTEREL",
+						"_professionnel_sante_id": "3",
+						"POSITIF": "true",
+						"DATE": "2021-07-21",
+						"_id_resultat": "4"
+					},
+					{
+						"LABORATOIRE": "CENTRE DE PRELEVEMENT ANTIBES",
+						"_professionnel_sante_id": "2",
+						"POSITIF": "true",
+						"DATE": "2021-07-28",
+						"_id_resultat": "5"
 					}
 				]
 			},
@@ -127,10 +155,24 @@
 				"RESULTATS_TESTS_LABORATOIRE": [
 					{
 						"LABORATOIRE": "SUPERLAB",
-						"_professionnel_sante_id": "2",
+						"_professionnel_sante_id": "1",
 						"POSITIF": "false",
 						"DATE": "2021-01-12",
-						"_id_resultat": "2"
+						"_id_resultat": "7"
+					},
+					{
+						"LABORATOIRE": "CENTRE DE PRELEVEMENT ANTIBES",
+						"_professionnel_sante_id": "2",
+						"POSITIF": "false",
+						"DATE": "2021-08-02",
+						"_id_resultat": "8"
+					},
+					{
+						"LABORATOIRE": "CENTRE DE PRELEVEMENT ANTIBES",
+						"_professionnel_sante_id": "2",
+						"POSITIF": "true",
+						"DATE": "2021-10-17",
+						"_id_resultat": "9"
 					}
 				]
 			},
@@ -207,7 +249,7 @@
 						"_professionnel_sante_id": "2",
 						"POSITIF": "true",
 						"DATE": "2021-02-28",
-						"_id_resultat": "3"
+						"_id_resultat": "10"
 					}
 				]
 			},
@@ -267,8 +309,36 @@
 						"LABORATOIRE": "CERBAILLANCE",
 						"_professionnel_sante_id": "1",
 						"POSITIF": "true",
+						"DATE": "2020-11-20",
+						"_id_resultat": "11"
+					},
+					{
+						"LABORATOIRE": "CERBAILLANCE",
+						"_professionnel_sante_id": "1",
+						"POSITIF": "false",
 						"DATE": "2021-02-28",
-						"_id_resultat": "4"
+						"_id_resultat": "12"
+					},
+					{
+						"LABORATOIRE": "CERBAILLANCE",
+						"_professionnel_sante_id": "1",
+						"POSITIF": "false",
+						"DATE": "2021-04-01",
+						"_id_resultat": "13"
+					},
+					{
+						"LABORATOIRE": "CERBAILLANCE",
+						"_professionnel_sante_id": "1",
+						"POSITIF": "false",
+						"DATE": "2021-05-04",
+						"_id_resultat": "14"
+					},
+					{
+						"LABORATOIRE": "CERBAILLANCE",
+						"_professionnel_sante_id": "1",
+						"POSITIF": "false",
+						"DATE": "2021-05-08",
+						"_id_resultat": "15"
 					}
 				]
 			},
@@ -329,8 +399,8 @@
 						"LABORATOIRE": "DOCTOPHARMA",
 						"_professionnel_sante_id": "3",
 						"POSITIF": "false",
-						"DATE": "2020-12-30",
-						"_id_resultat": "5"
+						"DATE": "2021-11-03",
+						"_id_resultat": "16"
 					}
 				]
 			},
@@ -376,14 +446,14 @@
 						"_professionnel_sante_id": "3",
 						"POSITIF": "false",
 						"DATE": "2021-05-28",
-						"_id_resultat": "6"
+						"_id_resultat": "17"
 					},
 					{
 						"LABORATOIRE": "Laboratoire international d'Antibes",
 						"_professionnel_sante_id": "1",
 						"POSITIF": "false",
 						"DATE": "2021-06-05",
-						"_id_resultat": "7"
+						"_id_resultat": "18"
 					}
 				]
 			},

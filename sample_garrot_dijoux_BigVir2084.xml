@@ -42,8 +42,32 @@
                     <RESULTAT id_resultat="1">
                         <LABORATOIRE>CERBAILLANCE</LABORATOIRE>
                         <PROFESSIONNEL_SANTE professionnel_sante_id="1"/>
+                        <POSITIF>false</POSITIF>
+                        <DATE>2021-01-20</DATE>
+                    </RESULTAT>
+                    <RESULTAT id_resultat="2">
+                        <LABORATOIRE>BIOESTEREL</LABORATOIRE>
+                        <PROFESSIONNEL_SANTE professionnel_sante_id="3"/>
+                        <POSITIF>false</POSITIF>
+                        <DATE>2021-04-23</DATE>
+                    </RESULTAT>
+                    <RESULTAT id_resultat="3">
+                        <LABORATOIRE>BIOESTEREL</LABORATOIRE>
+                        <PROFESSIONNEL_SANTE professionnel_sante_id="3"/>
+                        <POSITIF>false</POSITIF>
+                        <DATE>2021-04-30</DATE>
+                    </RESULTAT>
+                    <RESULTAT id_resultat="4">
+                        <LABORATOIRE>BIOESTEREL</LABORATOIRE>
+                        <PROFESSIONNEL_SANTE professionnel_sante_id="3"/>
                         <POSITIF>true</POSITIF>
-                        <DATE>2021-08-29</DATE>
+                        <DATE>2021-07-21</DATE>
+                    </RESULTAT>
+                    <RESULTAT id_resultat="5">
+                        <LABORATOIRE>CENTRE DE PRELEVEMENT ANTIBES</LABORATOIRE>
+                        <PROFESSIONNEL_SANTE professionnel_sante_id="2"/>
+                        <POSITIF>true</POSITIF>
+                        <DATE>2021-07-28</DATE>
                     </RESULTAT>
                 </RESULTATS_TESTS_LABORATOIRE>
             </ANTECEDENTS_MECICAUX>
@@ -123,11 +147,23 @@
 
                 </HOSPITALISATIONS>
                 <RESULTATS_TESTS_LABORATOIRE>
-                    <RESULTAT id_resultat="2">
+                    <RESULTAT id_resultat="7">
                         <LABORATOIRE>SUPERLAB</LABORATOIRE>
-                        <PROFESSIONNEL_SANTE professionnel_sante_id="2"/>
+                        <PROFESSIONNEL_SANTE professionnel_sante_id="1"/>
                         <POSITIF>false</POSITIF>
                         <DATE>2021-01-12</DATE>
+                    </RESULTAT>
+                    <RESULTAT id_resultat="8">
+                        <LABORATOIRE>CENTRE DE PRELEVEMENT ANTIBES</LABORATOIRE>
+                        <PROFESSIONNEL_SANTE professionnel_sante_id="2"/>
+                        <POSITIF>false</POSITIF>
+                        <DATE>2021-08-02</DATE>
+                    </RESULTAT>
+                    <RESULTAT id_resultat="9">
+                    <LABORATOIRE>CENTRE DE PRELEVEMENT ANTIBES</LABORATOIRE>
+                    <PROFESSIONNEL_SANTE professionnel_sante_id="2"/>
+                    <POSITIF>true</POSITIF>
+                    <DATE>2021-10-17</DATE>
                     </RESULTAT>
                 </RESULTATS_TESTS_LABORATOIRE>
             </ANTECEDENTS_MECICAUX>
@@ -197,7 +233,7 @@
                     </HOSPITALISATION>
                 </HOSPITALISATIONS>
                 <RESULTATS_TESTS_LABORATOIRE>
-                    <RESULTAT id_resultat="3">
+                    <RESULTAT id_resultat="10">
                         <LABORATOIRE>CERBAILLANCE</LABORATOIRE>
                         <PROFESSIONNEL_SANTE professionnel_sante_id="2"/>
                         <POSITIF>true</POSITIF>
@@ -254,11 +290,35 @@
                     </HOSPITALISATION>
                 </HOSPITALISATIONS>
                 <RESULTATS_TESTS_LABORATOIRE>
-                    <RESULTAT id_resultat="4">
+                    <RESULTAT id_resultat="11">
                         <LABORATOIRE>CERBAILLANCE</LABORATOIRE>
                         <PROFESSIONNEL_SANTE professionnel_sante_id="1"/>
                         <POSITIF>true</POSITIF>
+                        <DATE>2020-11-20</DATE>
+                    </RESULTAT>
+                    <RESULTAT id_resultat="12">
+                        <LABORATOIRE>CERBAILLANCE</LABORATOIRE>
+                        <PROFESSIONNEL_SANTE professionnel_sante_id="1"/>
+                        <POSITIF>false</POSITIF>
                         <DATE>2021-02-28</DATE>
+                    </RESULTAT>
+                    <RESULTAT id_resultat="13">
+                        <LABORATOIRE>CERBAILLANCE</LABORATOIRE>
+                        <PROFESSIONNEL_SANTE professionnel_sante_id="1"/>
+                        <POSITIF>false</POSITIF>
+                        <DATE>2021-04-01</DATE>
+                    </RESULTAT>
+                    <RESULTAT id_resultat="14">
+                        <LABORATOIRE>CERBAILLANCE</LABORATOIRE>
+                        <PROFESSIONNEL_SANTE professionnel_sante_id="1"/>
+                        <POSITIF>false</POSITIF>
+                        <DATE>2021-05-04</DATE>
+                    </RESULTAT>
+                    <RESULTAT id_resultat="15">
+                        <LABORATOIRE>CERBAILLANCE</LABORATOIRE>
+                        <PROFESSIONNEL_SANTE professionnel_sante_id="1"/>
+                        <POSITIF>false</POSITIF>
+                        <DATE>2021-05-08</DATE>
                     </RESULTAT>
                 </RESULTATS_TESTS_LABORATOIRE>
             </ANTECEDENTS_MECICAUX>
@@ -313,11 +373,11 @@
                     </HOSPITALISATION>
                 </HOSPITALISATIONS>
                 <RESULTATS_TESTS_LABORATOIRE>
-                    <RESULTAT id_resultat="5">
+                    <RESULTAT id_resultat="16">
                         <LABORATOIRE>DOCTOPHARMA</LABORATOIRE>
                         <PROFESSIONNEL_SANTE professionnel_sante_id="3"/>
                         <POSITIF>false</POSITIF>
-                        <DATE>2020-12-30</DATE>
+                        <DATE>2021-11-03</DATE>
                     </RESULTAT>
                 </RESULTATS_TESTS_LABORATOIRE>
             </ANTECEDENTS_MECICAUX>
@@ -363,13 +423,13 @@
                 <HOSPITALISATIONS>
                 </HOSPITALISATIONS>
                 <RESULTATS_TESTS_LABORATOIRE>
-                    <RESULTAT id_resultat="6">
+                    <RESULTAT id_resultat="17">
                         <LABORATOIRE>Laboratoire international d'Antibes</LABORATOIRE>
                         <PROFESSIONNEL_SANTE professionnel_sante_id="3"/>
                         <POSITIF>false</POSITIF>
                         <DATE>2021-05-28</DATE>
                     </RESULTAT>
-                    <RESULTAT id_resultat="7">
+                    <RESULTAT id_resultat="18">
                         <LABORATOIRE>Laboratoire international d'Antibes</LABORATOIRE>
                         <PROFESSIONNEL_SANTE professionnel_sante_id="1"/>
                         <POSITIF>false</POSITIF>
