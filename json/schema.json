@@ -1,8 +1,9 @@
 {
   "$schema": "http://json-schema.org/schema#",
-  "BIGVIR": {
-    "type": "object",
-    "description": "Base de donnée des utilisateurs de l'application BigVir2084.",
+  "title": "BigVir",
+  "description": "Base de donnée des utilisateurs de l'application BigVir2084.",
+  "type": "object",
+  "properties": {
     "additionalProperties": false,
     "properties": {
       "LISTE_CITOYENS": {
