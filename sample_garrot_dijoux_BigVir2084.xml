@@ -521,7 +521,7 @@
                     </HOSPITALISATION>
                 </HOSPITALISATIONS>
                 <RESULTATS_TESTS_LABORATOIRE>
-                    <RESULTAT id_resultat="12">
+                    <RESULTAT id_resultat="20">
                         <LABORATOIRE>Finup Test</LABORATOIRE>
                         <PROFESSIONNEL_SANTE professionnel_sante_id="3" />
                         <POSITIF>true</POSITIF>
@@ -572,7 +572,7 @@
                     </HOSPITALISATION>
                 </HOSPITALISATIONS>
                 <RESULTATS_TESTS_LABORATOIRE>
-                    <RESULTAT id_resultat="11">
+                    <RESULTAT id_resultat="19">
                         <LABORATOIRE>Finup Test</LABORATOIRE>
                         <PROFESSIONNEL_SANTE professionnel_sante_id="2" />
                         <POSITIF>true</POSITIF>
