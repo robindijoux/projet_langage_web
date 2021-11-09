@@ -44,35 +44,35 @@
 					{
 						"LABORATOIRE": "CERBAILLANCE",
 						"_professionnel_sante_id": "1",
-						"POSITIF": "false",
+						"POSITIF": false,
 						"DATE": "2021-01-20",
 						"_id_resultat": "1"
 					},
 					{
 						"LABORATOIRE": "BIOESTEREL",
 						"_professionnel_sante_id": "3",
-						"POSITIF": "false",
+						"POSITIF": false,
 						"DATE": "2021-04-23",
 						"_id_resultat": "2"
 					},
 					{
 						"LABORATOIRE": "BIOESTEREL",
 						"_professionnel_sante_id": "3",
-						"POSITIF": "false",
+						"POSITIF": false,
 						"DATE": "2021-04-30",
 						"_id_resultat": "3"
 					},
 					{
 						"LABORATOIRE": "BIOESTEREL",
 						"_professionnel_sante_id": "3",
-						"POSITIF": "true",
+						"POSITIF": true,
 						"DATE": "2021-07-21",
 						"_id_resultat": "4"
 					},
 					{
 						"LABORATOIRE": "CENTRE DE PRELEVEMENT ANTIBES",
 						"_professionnel_sante_id": "2",
-						"POSITIF": "true",
+						"POSITIF": true,
 						"DATE": "2021-07-28",
 						"_id_resultat": "5"
 					}
@@ -89,32 +89,32 @@
 					"DATE": "2021-02-28",
 					"NOM_ACTIVITE": "Restaurant entre amis",
 					"NB_PARTICIPANTS": "4",
-					"LIEU_CLOS": "true",
-					"PUBLIC": "true",
+					"LIEU_CLOS": true,
+					"PUBLIC": true,
 					"REF_ETABLISSEMENT": "1"
 				},
 				{
 					"DATE": "2021-10-30",
 					"NOM_ACTIVITE": "MNM's",
 					"NB_PARTICIPANTS": "800",
-					"LIEU_CLOS": "true",
-					"PUBLIC": "true",
+					"LIEU_CLOS": true,
+					"PUBLIC": true,
 					"REF_ETABLISSEMENT": "4"
 				},
 				{
 					"DATE": "2021-11-01",
 					"NOM_ACTIVITE": "Surf",
 					"NB_PARTICIPANTS": "1",
-					"LIEU_CLOS": "false",
-					"PUBLIC": "true",
+					"LIEU_CLOS": false,
+					"PUBLIC": true,
 					"REF_LIEU": "3"
 				},
 				{
 					"DATE": "2021-11-06",
 					"NOM_ACTIVITE": "Surf",
 					"NB_PARTICIPANTS": "2",
-					"LIEU_CLOS": "false",
-					"PUBLIC": "true",
+					"LIEU_CLOS": false,
+					"PUBLIC": true,
 					"REF_LIEU": "3"
 				}
 			],
@@ -156,21 +156,21 @@
 					{
 						"LABORATOIRE": "SUPERLAB",
 						"_professionnel_sante_id": "1",
-						"POSITIF": "false",
+						"POSITIF": false,
 						"DATE": "2021-01-12",
 						"_id_resultat": "7"
 					},
 					{
 						"LABORATOIRE": "CENTRE DE PRELEVEMENT ANTIBES",
 						"_professionnel_sante_id": "2",
-						"POSITIF": "false",
+						"POSITIF": false,
 						"DATE": "2021-08-02",
 						"_id_resultat": "8"
 					},
 					{
 						"LABORATOIRE": "CENTRE DE PRELEVEMENT ANTIBES",
 						"_professionnel_sante_id": "2",
-						"POSITIF": "true",
+						"POSITIF": true,
 						"DATE": "2021-10-17",
 						"_id_resultat": "9"
 					}
@@ -187,24 +187,24 @@
 					"DATE": "2021-01-13",
 					"NOM_ACTIVITE": "Cinéma",
 					"NB_PARTICIPANTS": "2",
-					"LIEU_CLOS": "true",
-					"PUBLIC": "true",
+					"LIEU_CLOS": true,
+					"PUBLIC": true,
 					"REF_ETABLISSEMENT": "1"
 				},
 				{
 					"DATE": "2021-02-28",
 					"NOM_ACTIVITE": "Restaurant entre amis",
 					"NB_PARTICIPANTS": "4",
-					"LIEU_CLOS": "true",
-					"PUBLIC": "true",
+					"LIEU_CLOS": true,
+					"PUBLIC": true,
 					"REF_ETABLISSEMENT": "1"
 				},
 				{
 					"DATE": "2021-11-06",
 					"NOM_ACTIVITE": "Surf",
 					"NB_PARTICIPANTS": "2",
-					"LIEU_CLOS": "false",
-					"PUBLIC": "true",
+					"LIEU_CLOS": false,
+					"PUBLIC": true,
 					"REF_LIEU": "3"
 				}
 			],
@@ -247,7 +247,7 @@
 					{
 						"LABORATOIRE": "CERBAILLANCE",
 						"_professionnel_sante_id": "2",
-						"POSITIF": "true",
+						"POSITIF": true,
 						"DATE": "2021-02-28",
 						"_id_resultat": "10"
 					}
@@ -264,8 +264,8 @@
 					"DATE": "2021-02-28",
 					"NOM_ACTIVITE": "Restaurant entre amis",
 					"NB_PARTICIPANTS": "4",
-					"LIEU_CLOS": "true",
-					"PUBLIC": "true",
+					"LIEU_CLOS": true,
+					"PUBLIC": true,
 					"REF_ETABLISSEMENT": "1"
 				}
 			],
@@ -308,35 +308,35 @@
 					{
 						"LABORATOIRE": "CERBAILLANCE",
 						"_professionnel_sante_id": "1",
-						"POSITIF": "true",
+						"POSITIF": true,
 						"DATE": "2020-11-20",
 						"_id_resultat": "11"
 					},
 					{
 						"LABORATOIRE": "CERBAILLANCE",
 						"_professionnel_sante_id": "1",
-						"POSITIF": "false",
+						"POSITIF": false,
 						"DATE": "2021-02-28",
 						"_id_resultat": "12"
 					},
 					{
 						"LABORATOIRE": "CERBAILLANCE",
 						"_professionnel_sante_id": "1",
-						"POSITIF": "false",
+						"POSITIF": false,
 						"DATE": "2021-04-01",
 						"_id_resultat": "13"
 					},
 					{
 						"LABORATOIRE": "CERBAILLANCE",
 						"_professionnel_sante_id": "1",
-						"POSITIF": "false",
+						"POSITIF": false,
 						"DATE": "2021-05-04",
 						"_id_resultat": "14"
 					},
 					{
 						"LABORATOIRE": "CERBAILLANCE",
 						"_professionnel_sante_id": "1",
-						"POSITIF": "false",
+						"POSITIF": false,
 						"DATE": "2021-05-08",
 						"_id_resultat": "15"
 					}
@@ -353,16 +353,16 @@
 					"DATE": "2021-02-28",
 					"NOM_ACTIVITE": "Restaurant en amoureux",
 					"NB_PARTICIPANTS": "2",
-					"LIEU_CLOS": "true",
-					"PUBLIC": "true",
+					"LIEU_CLOS": true,
+					"PUBLIC": true,
 					"REF_ETABLISSEMENT": "2"
 				},
 				{
 					"DATE": "2021-02-28",
 					"NOM_ACTIVITE": "Cinéma",
 					"NB_PARTICIPANTS": "23",
-					"LIEU_CLOS": "true",
-					"PUBLIC": "true",
+					"LIEU_CLOS": true,
+					"PUBLIC": true,
 					"REF_ETABLISSEMENT": "8"
 				}
 			],
@@ -398,7 +398,7 @@
 					{
 						"LABORATOIRE": "DOCTOPHARMA",
 						"_professionnel_sante_id": "3",
-						"POSITIF": "false",
+						"POSITIF": false,
 						"DATE": "2021-11-03",
 						"_id_resultat": "16"
 					}
@@ -415,16 +415,16 @@
 					"DATE": "2020-08-20",
 					"NOM_ACTIVITE": "Festival Crossover",
 					"NB_PARTICIPANTS": "3",
-					"LIEU_CLOS": "false",
-					"PUBLIC": "true",
+					"LIEU_CLOS": false,
+					"PUBLIC": true,
 					"REF_LIEU": "1"
 				},
 				{
 					"DATE": "2021-11-01",
 					"NOM_ACTIVITE": "Halloween Party",
 					"NB_PARTICIPANTS": "6",
-					"LIEU_CLOS": "true",
-					"PUBLIC": "true",
+					"LIEU_CLOS": true,
+					"PUBLIC": true,
 					"REF_ETABLISSEMENT": "3"
 				}
 			],
@@ -444,14 +444,14 @@
 					{
 						"LABORATOIRE": "Laboratoire international d'Antibes",
 						"_professionnel_sante_id": "3",
-						"POSITIF": "false",
+						"POSITIF": false,
 						"DATE": "2021-05-28",
 						"_id_resultat": "17"
 					},
 					{
 						"LABORATOIRE": "Laboratoire international d'Antibes",
 						"_professionnel_sante_id": "1",
-						"POSITIF": "false",
+						"POSITIF": false,
 						"DATE": "2021-06-05",
 						"_id_resultat": "18"
 					}
@@ -468,16 +468,16 @@
 					"DATE": "2021-02-28",
 					"NOM_ACTIVITE": "Restaurant entre amis",
 					"NB_PARTICIPANTS": "4",
-					"LIEU_CLOS": "true",
-					"PUBLIC": "true",
+					"LIEU_CLOS": true,
+					"PUBLIC": true,
 					"REF_ETABLISSEMENT": "1"
 				},
 				{
 					"DATE": "2021-10-30",
 					"NOM_ACTIVITE": "MNM's",
 					"NB_PARTICIPANTS": "800",
-					"LIEU_CLOS": "true",
-					"PUBLIC": "true",
+					"LIEU_CLOS": true,
+					"PUBLIC": true,
 					"REF_ETABLISSEMENT": "4"
 				}
 			],
@@ -506,16 +506,16 @@
 					"DATE": "2021-05-29",
 					"NOM_ACTIVITE": "Pièce de théatre",
 					"NB_PARTICIPANTS": "34",
-					"LIEU_CLOS": "false",
-					"PUBLIC": "true",
+					"LIEU_CLOS": false,
+					"PUBLIC": true,
 					"REF_LIEU": "1"
 				},
 				{
 					"DATE": "2020-12-13",
 					"NOM_ACTIVITE": "Anniversaire au restaurant",
 					"NB_PARTICIPANTS": "4",
-					"LIEU_CLOS": "true",
-					"PUBLIC": "false",
+					"LIEU_CLOS": true,
+					"PUBLIC": false,
 					"REF_ETABLISSEMENT": "10"
 				}
 			],
@@ -543,7 +543,7 @@
 					{
 						"LABORATOIRE": "Finup Test",
 						"_professionnel_sante_id": "3",
-						"POSITIF": "true",
+						"POSITIF": true,
 						"DATE": "2021-06-26",
 						"_id_resultat": "20"
 					}
@@ -560,8 +560,8 @@
 					"DATE": "2020-12-13",
 					"NOM_ACTIVITE": "Anniversaire au restaurant",
 					"NB_PARTICIPANTS": "4",
-					"LIEU_CLOS": "true",
-					"PUBLIC": "false",
+					"LIEU_CLOS": true,
+					"PUBLIC": false,
 					"REF_ETABLISSEMENT": "10"
 				}
 			],
@@ -597,7 +597,7 @@
 					{
 						"LABORATOIRE": "Finup Test",
 						"_professionnel_sante_id": "2",
-						"POSITIF": "true",
+						"POSITIF": true,
 						"DATE": "2021-07-02",
 						"_id_resultat": "19"
 					}
@@ -614,8 +614,8 @@
 					"DATE": "2020-12-13",
 					"NOM_ACTIVITE": "Anniversaire au restaurant",
 					"NB_PARTICIPANTS": "4",
-					"LIEU_CLOS": "true",
-					"PUBLIC": "false",
+					"LIEU_CLOS": true,
+					"PUBLIC": false,
 					"REF_ETABLISSEMENT": "10"
 				}
 			],

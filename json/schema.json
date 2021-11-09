@@ -125,7 +125,7 @@
                           "type": "string"
                         },
                         "POSITIF": {
-                          "type": "string"
+                          "type": "boolean"
                         },
                         "DATE": {
                           "type": "string"
@@ -191,10 +191,10 @@
                       "type": "string"
                     },
                     "LIEU_CLOS": {
-                      "type": "string"
+                      "type": "boolean"
                     },
                     "PUBLIC": {
-                      "type": "string"
+                      "type": "boolean"
                     },
                     "REF_ETABLISSEMENT": {
                       "type": "string"
