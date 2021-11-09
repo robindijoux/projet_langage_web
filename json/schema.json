@@ -3,325 +3,330 @@
   "title": "BigVir",
   "description": "Base de donnée des utilisateurs de l'application BigVir2084.",
   "type": "object",
+  "additionalProperties": false,
   "properties": {
-    "additionalProperties": false,
-    "properties": {
-      "LISTE_CITOYENS": {
-        "description": "Liste des citoyens recensés sur l'application.",
-        "type": "array",
-        "items": [
-          {
-            "type": "object",
-            "description": "Citoyen recensé.",
-            "additionalProperties": false,
-            "properties": {
-              "NOM": {
-                "type": "string"
-              },
-              "PRENOM": {
-                "type": "string"
-              },
-              "SEXE": {
-                "type": "string",
-                "enum": [ "HOMME", "FEMME" ]
-              },
-              "AGE": {
-                "type": "string"
-              },
-              "POIDS": {
-                "type": "string"
-              },
-              "TELEPHONE": {
-                "type": "string",
-                "pattern": "\\d{10}"
-              },
-              "ANTECEDENTS_MECICAUX": {
-                "type": "object",
-                "description": "Antécédents médicaux du citoyen, avec la liste de ses consultations, de ses hospitalisations et ses résultats de tests de laboratoire.",
-                "properties": {
-                  "CONSULTATIONS": {
-                    "type": "array",
-                    "description": "Liste des consultations du citoyen.",
-                    "items": [
-                      {
-                        "type": "object",
-                        "description": "Consultation, définie par un lieu, un médecin, une date, un motif et un identifiant de consultation.",
-                        "properties": {
-                          "LIEU": {
-                            "type": "string"
-                          },
-                          "_professionnel_sante_id": {
-                            "type": "string"
-                          },
-                          "DATE": {
-                            "type": "string"
-                          },
-                          "MOTIF": {
-                            "type": "string"
-                          },
-                          "_id_consultation": {
-                            "type": "string"
-                          }
+    "LISTE_CITOYENS": {
+      "description": "Liste des citoyens recensés sur l'application.",
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "description": "Citoyen recensé.",
+          "additionalProperties": false,
+          "properties": {
+            "NOM": {
+              "type": "string"
+            },
+            "PRENOM": {
+              "type": "string"
+            },
+            "SEXE": {
+              "type": "string",
+              "enum": [ "HOMME", "FEMME" ]
+            },
+            "AGE": {
+              "type": "string"
+            },
+            "POIDS": {
+              "type": "string"
+            },
+            "TELEPHONE": {
+              "type": "string",
+              "pattern": "\\d{10}"
+            },
+            "ANTECEDENTS_MECICAUX": {
+              "type": "object",
+              "additionalProperties": false,
+              "description": "Antécédents médicaux du citoyen, avec la liste de ses consultations, de ses hospitalisations et ses résultats de tests de laboratoire.",
+              "properties": {
+                "CONSULTATIONS": {
+                  "type": "array",
+                  "description": "Liste des consultations du citoyen.",
+                  "items": [
+                    {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "description": "Consultation, définie par un lieu, un médecin, une date, un motif et un identifiant de consultation.",
+                      "properties": {
+                        "LIEU": {
+                          "type": "string"
                         },
-                        "required": [
-                          "LIEU",
-                          "_professionnel_sante_id",
-                          "DATE",
-                          "MOTIF",
-                          "_id_consultation"
-                        ]
-                      }
-                    ]
-                  },
-                  "HOSPITALISATIONS": {
-                    "type": "array",
-                    "description": "Liste des hospitalisations du citoyen.",
-                    "items": [
-                      {
-                        "type": "object",
-                        "description": "Hospitalisation, définie par un lieu, une date d'entrée et de sortie de l'hopital, un motif et un identifiant d'hospitalisation.",
-                        "properties": {
-                          "LIEU": {
-                            "type": "string"
-                          },
-                          "DATE_ENTREE": {
-                            "type": "string"
-                          },
-                          "DATE_SORTIE": {
-                            "type": "string"
-                          },
-                          "MOTIF": {
-                            "type": "string"
-                          },
-                          "_id_hospitalisation": {
-                            "type": "string"
-                          }
+                        "_professionnel_sante_id": {
+                          "type": "string"
                         },
-                        "required": [
-                          "LIEU",
-                          "DATE_ENTREE",
-                          "DATE_SORTIE",
-                          "MOTIF",
-                          "_id_hospitalisation"
-                        ]
-                      }
-                    ]
-                  },
-                  "RESULTATS_TESTS_LABORATOIRE": {
-                    "type": "array",
-                    "description": "Liste des résultats de tests de laboratoire du citoyen.",
-                    "items": [
-                      {
-                        "type": "object",
-                        "description": "Resultat de test de laboratoire, défini par un nom de laboratoire, un médecin, une positivité, une date et un identifiant de résultat.",
-                        "properties": {
-                          "LABORATOIRE": {
-                            "type": "string"
-                          },
-                          "_professionnel_sante_id": {
-                            "type": "string"
-                          },
-                          "POSITIF": {
-                            "type": "string"
-                          },
-                          "DATE": {
-                            "type": "string"
-                          },
-                          "_id_resultat": {
-                            "type": "string"
-                          }
+                        "DATE": {
+                          "type": "string"
                         },
-                        "required": [
-                          "LABORATOIRE",
-                          "_professionnel_sante_id",
-                          "POSITIF",
-                          "DATE",
-                          "_id_resultat"
-                        ]
-                      }
-                    ]
-                  }
+                        "MOTIF": {
+                          "type": "string"
+                        },
+                        "_id_consultation": {
+                          "type": "string"
+                        }
+                      },
+                      "required": [
+                        "LIEU",
+                        "_professionnel_sante_id",
+                        "DATE",
+                        "MOTIF",
+                        "_id_consultation"
+                      ]
+                    }
+                  ]
                 },
-                "required": [
-                  "CONSULTATIONS",
-                  "HOSPITALISATIONS",
-                  "RESULTATS_TESTS_LABORATOIRE"
-                ]
-              },
-              "STATUT_INFECTION": {
-                "type": "string",
-                "enum": [ "INFECTE", "NON_INFECTE" ]
-              },
-              "STATUT_VACCINATION": {
-                "type": "string",
-                "enum": [ "VACCINE", "EN_COURS_DE_VACCINATION", "NON_VACCINE" ]
-              },
-              "STATUT_IMMUNISATION": {
-                "type": "string",
-                "enum": [ "IMMUNISE", "NON_IMMUNISE" ]
-              },
-              "RELATIONS_SOCIALES": {
-                "type": "array",
-                "description": "Liste des identifiants des amis du citoyen.",
-                "items": [
-                  {
-                    "type": "string"
-                  }
-                ]
-              },
-              "HISTORIQUE_SOCIAL": {
-                "type": "array",
-                "description": "Liste des activités auxquelles le citoyen à participé.",
-                "items": [
-                  {
-                    "type": "object",
-                    "description": "Activité, définie par une date, un nom, un nombre de participants, le caractère clos du lieu, le caractère publique de l'activité, et une rérérence à soit un établissement soit un lieu.",
-                    "properties": {
-                      "DATE": {
-                        "type": "string"
+                "HOSPITALISATIONS": {
+                  "type": "array",
+                  "description": "Liste des hospitalisations du citoyen.",
+                  "items": [
+                    {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "description": "Hospitalisation, définie par un lieu, une date d'entrée et de sortie de l'hopital, un motif et un identifiant d'hospitalisation.",
+                      "properties": {
+                        "LIEU": {
+                          "type": "string"
+                        },
+                        "DATE_ENTREE": {
+                          "type": "string"
+                        },
+                        "DATE_SORTIE": {
+                          "type": "string"
+                        },
+                        "MOTIF": {
+                          "type": "string"
+                        },
+                        "_id_hospitalisation": {
+                          "type": "string"
+                        }
                       },
-                      "NOM_ACTIVITE": {
-                        "type": "string"
+                      "required": [
+                        "LIEU",
+                        "DATE_ENTREE",
+                        "DATE_SORTIE",
+                        "MOTIF",
+                        "_id_hospitalisation"
+                      ]
+                    }
+                  ]
+                },
+                "RESULTATS_TESTS_LABORATOIRE": {
+                  "type": "array",
+                  "description": "Liste des résultats de tests de laboratoire du citoyen.",
+                  "items": [
+                    {
+                      "type": "object",
+                      "additionalProperties": false,
+                      "description": "Resultat de test de laboratoire, défini par un nom de laboratoire, un médecin, une positivité, une date et un identifiant de résultat.",
+                      "properties": {
+                        "LABORATOIRE": {
+                          "type": "string"
+                        },
+                        "_professionnel_sante_id": {
+                          "type": "string"
+                        },
+                        "POSITIF": {
+                          "type": "string"
+                        },
+                        "DATE": {
+                          "type": "string"
+                        },
+                        "_id_resultat": {
+                          "type": "string"
+                        }
                       },
-                      "NB_PARTICIPANTS": {
-                        "type": "string"
-                      },
-                      "LIEU_CLOS": {
-                        "type": "string"
-                      },
-                      "PUBLIC": {
-                        "type": "string"
-                      },
-                      "REF_ETABLISSEMENT": {
-                        "type": "string"
-                      }
+                      "required": [
+                        "LABORATOIRE",
+                        "_professionnel_sante_id",
+                        "POSITIF",
+                        "DATE",
+                        "_id_resultat"
+                      ]
+                    }
+                  ]
+                }
+              },
+              "required": [
+                "CONSULTATIONS",
+                "HOSPITALISATIONS",
+                "RESULTATS_TESTS_LABORATOIRE"
+              ]
+            },
+            "STATUT_INFECTION": {
+              "type": "string",
+              "enum": [ "INFECTE", "NON_INFECTE" ]
+            },
+            "STATUT_VACCINATION": {
+              "type": "string",
+              "enum": [ "VACCINE", "EN_COURS_DE_VACCINATION", "NON_VACCINE" ]
+            },
+            "STATUT_IMMUNISATION": {
+              "type": "string",
+              "enum": [ "IMMUNISE", "NON_IMMUNISE" ]
+            },
+            "RELATIONS_SOCIALES": {
+              "type": "array",
+              "description": "Liste des identifiants des amis du citoyen.",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "HISTORIQUE_SOCIAL": {
+              "type": "array",
+              "description": "Liste des activités auxquelles le citoyen à participé.",
+              "items": [
+                {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "description": "Activité, définie par une date, un nom, un nombre de participants, le caractère clos du lieu, le caractère publique de l'activité, et une rérérence à soit un établissement soit un lieu.",
+                  "properties": {
+                    "DATE": {
+                      "type": "string"
                     },
-                    "required": [
-                      "DATE",
-                      "NOM_ACTIVITE",
-                      "NB_PARTICIPANTS",
-                      "LIEU_CLOS",
-                      "PUBLIC",
-                      "REF_ETABLISSEMENT"
-                    ]
-                  }
-                ]
-              },
-              "_id_citoyen": {
-                "type": "string"
-              }
+                    "NOM_ACTIVITE": {
+                      "type": "string"
+                    },
+                    "NB_PARTICIPANTS": {
+                      "type": "string"
+                    },
+                    "LIEU_CLOS": {
+                      "type": "string"
+                    },
+                    "PUBLIC": {
+                      "type": "string"
+                    },
+                    "REF_ETABLISSEMENT": {
+                      "type": "string"
+                    },
+                    "REF_LIEU": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "DATE",
+                    "NOM_ACTIVITE",
+                    "NB_PARTICIPANTS",
+                    "LIEU_CLOS",
+                    "PUBLIC"
+                  ]
+                }
+              ]
             },
-            "required": [
-              "NOM",
-              "PRENOM",
-              "SEXE",
-              "AGE",
-              "POIDS",
-              "TELEPHONE",
-              "ANTECEDENTS_MECICAUX",
-              "STATUT_INFECTION",
-              "STATUT_VACCINATION",
-              "STATUT_IMMUNISATION",
-              "RELATIONS_SOCIALES",
-              "HISTORIQUE_SOCIAL",
-              "_id_citoyen"
-            ]
-          }
-        ]
-      },
-      "LISTE_ETABLISSEMENTS": {
-        "type": "array",
-        "description": "Liste des établissements connus de l'application.",
-        "items": [
-          {
-            "type": "object",
-            "description": "Etablissement, défini par un nom, une adresse, une superficie, un nombre de places et un identifiant d'établissement.",
-            "additionalProperties": false,
-            "properties": {
-              "NOM_ETABLISSEMENT": {
-                "type": "string"
-              },
-              "ADRESSE": {
-                "type": "string"
-              },
-              "SUPERFICIE": {
-                "type": "string"
-              },
-              "NB_PLACES": {
-                "type": "string"
-              },
-              "_id_etablissement": {
-                "type": "string"
-              }
+            "_id_citoyen": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "NOM",
+            "PRENOM",
+            "SEXE",
+            "AGE",
+            "POIDS",
+            "TELEPHONE",
+            "ANTECEDENTS_MECICAUX",
+            "STATUT_INFECTION",
+            "STATUT_VACCINATION",
+            "STATUT_IMMUNISATION",
+            "RELATIONS_SOCIALES",
+            "HISTORIQUE_SOCIAL",
+            "_id_citoyen"
+          ]
+        }
+      ]
+    },
+    "LISTE_ETABLISSEMENTS": {
+      "type": "array",
+      "description": "Liste des établissements connus de l'application.",
+      "items": [
+        {
+          "type": "object",
+          "description": "Etablissement, défini par un nom, une adresse, une superficie, un nombre de places et un identifiant d'établissement.",
+          "additionalProperties": false,
+          "properties": {
+            "NOM_ETABLISSEMENT": {
+              "type": "string"
             },
-            "required": [
-              "NOM_ETABLISSEMENT",
-              "ADRESSE",
-              "SUPERFICIE",
-              "NB_PLACES",
-              "_id_etablissement"
-            ]
-          }
-        ]
-      },
-      "LISTE_LIEUX": {
-        "type": "array",
-        "description": "Liste des lieux connus de l'application.",
-        "items": [
-          {
-            "type": "object",
-            "additionalProperties": false,
-            "description": "Lieu, défini par un nom, une adresse, un code postal et un identifiant de lieu.",
-            "properties": {
-              "NOM_LIEU": {
-                "type": "string"
-              },
-              "ADRESSE": {
-                "type": "string"
-              },
-              "CODE_POSTAL": {
-                "type": "string"
-              },
-              "_id_lieu": {
-                "type": "string"
-              }
+            "ADRESSE": {
+              "type": "string"
             },
-            "required": [
-              "NOM_LIEU",
-              "ADRESSE",
-              "CODE_POSTAL",
-              "_id_lieu"
-            ]
-          }
-        ]
-      },
-      "LISTE_MEDECINS": {
-        "type": "array",
-        "description": "Liste des médecins recensés dans l'application.",
-        "items": [
-          {
-            "type": "object",
-            "additionalProperties": false,
-            "description": "Médecin, défini par une spécialité, un identifiant de médecin et une référence à un identifiant de citoyen.",
-            "properties": {
-              "SPECIALITE": {
-                "type": "string"
-              },
-              "_id_medecin": {
-                "type": "string"
-              },
-              "_id_citoyen": {
-                "type": "string"
-              }
+            "SUPERFICIE": {
+              "type": "string"
             },
-            "required": [
-              "SPECIALITE",
-              "_id_medecin",
-              "_id_citoyen"
-            ]
-          }
-        ]
-      }
+            "NB_PLACES": {
+              "type": "string"
+            },
+            "_id_etablissement": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "NOM_ETABLISSEMENT",
+            "ADRESSE",
+            "SUPERFICIE",
+            "NB_PLACES",
+            "_id_etablissement"
+          ]
+        }
+      ]
+    },
+    "LISTE_LIEUX": {
+      "type": "array",
+      "description": "Liste des lieux connus de l'application.",
+      "items": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "description": "Lieu, défini par un nom, une adresse, un code postal et un identifiant de lieu.",
+          "properties": {
+            "NOM_LIEU": {
+              "type": "string"
+            },
+            "ADRESSE": {
+              "type": "string"
+            },
+            "CODE_POSTAL": {
+              "type": "string"
+            },
+            "_id_lieu": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "NOM_LIEU",
+            "ADRESSE",
+            "CODE_POSTAL",
+            "_id_lieu"
+          ]
+        }
+      ]
+    },
+    "LISTE_MEDECINS": {
+      "type": "array",
+      "description": "Liste des médecins recensés dans l'application.",
+      "items": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "description": "Médecin, défini par une spécialité, un identifiant de médecin et une référence à un identifiant de citoyen.",
+          "properties": {
+            "SPECIALITE": {
+              "type": "string"
+            },
+            "_id_medecin": {
+              "type": "string"
+            },
+            "_id_citoyen": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "SPECIALITE",
+            "_id_medecin",
+            "_id_citoyen"
+          ]
+        }
+      ]
     }
   },
   "required": [
