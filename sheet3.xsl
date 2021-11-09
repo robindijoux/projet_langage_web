@@ -1,36 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xsl:stylesheet version="2.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-    <xsl:output method="xml" encoding="ISO-8859-1"/>
-    <xsl:template match="/BIGVIR/LISTE_CITOYEN">
-        <LISTE_ETABLISSEMENTS>
-            <xsl:for-each-group select="CITOYEN" group-by="HISTORIQUE_SOCIAL/ACTIVITE/REF_ETABLISSEMENT">
-                <ETABLISSEMENT><!--id="{HISTORIQUE_SOCIAL/ACTIVITE/REF_ETABLISSEMENT}"-->
-                    <xsl:for-each select="current-group()">
-                        <VISITEUR>
-                            <NOM><xsl:value-of select="NOM"/></NOM>
-                            <PRENOM><xsl:value-of select="PRENOM"/></PRENOM>
-                            <TELEPHONE><xsl:value-of select="TELEPHONE"/></TELEPHONE>
-                            <INFECTE>
-                                <xsl:when test="STATUT_INFECTION = 'INFECTE'">
-                                    TRUE
-                                </xsl:when>
-                                <xsl:otherwise>
-                                    FALSE
-                                </xsl:otherwise>
-                            </INFECTE>
-                            <VACCINE>
-                                <xsl:when test="STATUT_VACCINATION = 'VACCINE'">
-                                    TRUE
-                                </xsl:when>
-                                <xsl:otherwise>
-                                    FALSE
-                                </xsl:otherwise>
-                            </VACCINE>
-                        </VISITEUR>
-                    </xsl:for-each>
-                </ETABLISSEMENT>
-            </xsl:for-each-group>
-        </LISTE_ETABLISSEMENTS>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    <xsl:output method="xml" encoding="UTF-8"/>
+    <xsl:template match="BIGVIR">
+        <liste_personnes>
+            <infos>Les <xsl:value-of select="count(LISTE_CITOYEN/CITOYEN[descendant::STATUT_INFECTION='INFECTE' and descendant::STATUT_IMMUNISATION='IMMUNISE'])" /> citoyen(s) immunisé(s) qui ont le BIGVIR</infos>
+            <xsl:apply-templates select="LISTE_CITOYEN/CITOYEN[descendant::STATUT_INFECTION='INFECTE' and descendant::STATUT_IMMUNISATION='IMMUNISE']" />
+        </liste_personnes>
+    </xsl:template>
+
+    <xsl:template match="CITOYEN">
+        <citoyen>
+            <nom><xsl:value-of select="NOM" /></nom>
+            <prenom><xsl:value-of select="PRENOM" /></prenom>
+        </citoyen>
     </xsl:template>
 </xsl:stylesheet>
-
